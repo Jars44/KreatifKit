@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "Hook Viral",
+    "tone": "funny",
+    "template": "Tahukah Anda bahwa {keyword} dapat mengubah hidup Anda dengan cara yang tak terbayangkan? Inilah alasannya sedang meledak saat ini!"
+  },
+  {
+    "id": 2,
+    "category": "Hook Viral",
+    "tone": "formal",
+    "template": "Kebenaran mengejutkan tentang {keyword} yang tidak ada yang membicarakannya – Anda tidak akan percaya apa yang terjadi!"
+  },
+  {
+    "id": 3,
+    "category": "Hook Viral",
+    "tone": "casual",
+    "template": "Apa yang terjadi ketika {keyword} bertemu inovasi? Tren viral ini sedang menguasai internet!"
+  },
+  {
+    "id": 4,
+    "category": "Hook Viral",
+    "tone": "inspirational",
+    "template": "Hentikan segalanya! {keyword} baru saja menjadi 10x lebih baik, dan inilah bukti yang sedang viral."
+  },
+  {
+    "id": 5,
+    "category": "Pendidikan",
+    "tone": "funny",
+    "template": "Buka rahasia {keyword}: Panduan lengkap untuk memahami dan menguasai topik penting ini."
+  },
+  {
+    "id": 6,
+    "category": "Pendidikan",
+    "tone": "formal",
+    "template": "Dari dasar hingga lanjutan: Semua yang perlu Anda ketahui tentang {keyword} dijelaskan langkah demi langkah."
+  },
+  {
+    "id": 7,
+    "category": "Pendidikan",
+    "tone": "casual",
+    "template": "Ilmu di balik {keyword}: Fakta, mitos, dan wawasan ahli yang tidak boleh Anda lewatkan."
+  },
+  {
+    "id": 8,
+    "category": "Pendidikan",
+    "tone": "inspirational",
+    "template": "Kuasi {keyword} dalam 5 menit: Konsep kunci, tips, dan sumber daya untuk pemula dan ahli."
+  },
+  {
+    "id": 9,
+    "category": "Jualan Halus",
+    "tone": "funny",
+    "template": "Temukan bagaimana {keyword} dapat meningkatkan rutinitas harian Anda – lembut, efektif, dan sempurna untuk Anda."
+  },
+  {
+    "id": 10,
+    "category": "Jualan Halus",
+    "tone": "formal",
+    "template": "Bayangkan dunia di mana {keyword} membuat segalanya lebih mudah. Mulai perjalanan Anda hari ini dengan peningkatan halus ini."
+  },
+  {
+    "id": 11,
+    "category": "Jualan Halus",
+    "tone": "casual",
+    "template": "Mengapa {keyword} adalah game-changer tenang yang Anda tunggu – tidak ada hype, hanya manfaat nyata."
+  },
+  {
+    "id": 12,
+    "category": "Jualan Halus",
+    "tone": "inspirational",
+    "template": "Tingkatkan pengalaman Anda dengan {keyword}: Sentuhan halus yang membuat perbedaan besar dalam hidup Anda."
+  },
+  {
+    "id": 13,
+    "category": "Penceritaan",
+    "tone": "funny",
+    "template": "Pada suatu waktu, {keyword} mengubah ide sederhana menjadi petualangan epik. Inilah cerita di baliknya."
+  },
+  {
+    "id": 14,
+    "category": "Penceritaan",
+    "tone": "formal",
+    "template": "Cerita tak terungkap tentang {keyword}: Dari awal yang sederhana hingga menjadi legenda sendiri."
+  },
+  {
+    "id": 15,
+    "category": "Penceritaan",
+    "tone": "casual",
+    "template": "Perjalanan melalui dunia {keyword}: Kisah inovasi, tantangan, dan kesuksesan yang menakjubkan."
+  },
+  {
+    "id": 16,
+    "category": "Penceritaan",
+    "tone": "inspirational",
+    "template": "Di balik layar: Narasi inspiratif tentang bagaimana {keyword} menawan hati dan mengubah pikiran selamanya."
+  },
+  {
+    "id": 17,
+    "category": "Hook Viral",
+    "tone": "funny",
+    "template": "Tahukah Anda bahwa {keyword} bisa mengubah hidup Anda dengan cara yang tak terbayangkan? Ini alasannya sedang viral sekarang!"
+  },
+  {
+    "id": 18,
+    "category": "Hook Viral",
+    "tone": "funny",
+    "template": "Apa yang terjadi jika {keyword} bertemu inovasi? Tren viral ini sedang menguasai internet!"
+  },
+  {
+    "id": 19,
+    "category": "Hook Viral",
+    "tone": "funny",
+    "template": "Bayangkan {keyword} dalam versi lucu – ini sedang meledak di media sosial!"
+  },
+  {
+    "id": 20,
+    "category": "Hook Viral",
+    "tone": "formal",
+    "template": "Kebenaran mengejutkan tentang {keyword} yang tidak dibicarakan siapa pun – Anda tidak akan percaya apa yang terjadi!"
+  },
+  {
+    "id": 21,
+    "category": "Hook Viral",
+    "tone": "formal",
+    "template": "Dampak luar biasa {keyword} terhadap masyarakat modern: Analisis mendalam."
+  },
+  {
+    "id": 22,
+    "category": "Hook Viral",
+    "tone": "formal",
+    "template": "Mengapa {keyword} menjadi fenomena global? Penjelasan formal dan obyektif."
+  },
+  {
+    "id": 23,
+    "category": "Hook Viral",
+    "tone": "casual",
+    "template": "Apa yang terjadi kalau {keyword} ketemu inovasi? Tren viral ini lagi nge-hits banget!"
+  },
+  {
+    "id": 24,
+    "category": "Hook Viral",
+    "tone": "casual",
+    "template": "Lo tau ga kalau {keyword} bisa bikin hidup lo lebih keren? Ini lagi booming nih!"
+  },
+  {
+    "id": 25,
+    "category": "Hook Viral",
+    "tone": "casual",
+    "template": "Tren {keyword} yang lagi viral – gue kasih tau alasannya simpel aja."
+  },
+  {
+    "id": 26,
+    "category": "Hook Viral",
+    "tone": "inspirational",
+    "template": "Hentikan segalanya! {keyword} baru saja menjadi 10x lebih baik, dan ini bukti yang menginspirasi yang sedang viral."
+  },
+  {
+    "id": 27,
+    "category": "Hook Viral",
+    "tone": "inspirational",
+    "template": "Temukan kekuatan {keyword}: Kisah inspirasi yang mengubah hidup jutaan orang."
+  },
+  {
+    "id": 28,
+    "category": "Hook Viral",
+    "tone": "inspirational",
+    "template": "Dari nol menjadi hero: Perjalanan inspiratif {keyword} yang mengubah dunia."
+  },
+  {
+    "id": 29,
+    "category": "Pendidikan",
+    "tone": "funny",
+    "template": "Buka rahasia {keyword}: Panduan lengkap untuk memahami dan menguasai topik penting ini dengan cara yang menyenangkan."
+  },
+  {
+    "id": 30,
+    "category": "Pendidikan",
+    "tone": "funny",
+    "template": "Dari nol sampai ahli {keyword} dalam 5 menit – tips lucu dan efektif!"
+  },
+  {
+    "id": 31,
+    "category": "Pendidikan",
+    "tone": "funny",
+    "template": "Mitos dan fakta tentang {keyword}: Jangan sampai tertipu, baca ini sambil ketawa!"
+  },
+  {
+    "id": 32,
+    "category": "Pendidikan",
+    "tone": "formal",
+    "template": "Dari dasar hingga lanjutan: Semua yang perlu Anda ketahui tentang {keyword} dijelaskan langkah demi langkah."
+  },
+  {
+    "id": 33,
+    "category": "Pendidikan",
+    "tone": "formal",
+    "template": "Analisis komprehensif {keyword}: Teori, praktik, dan aplikasi dalam kehidupan sehari-hari."
+  },
+  {
+    "id": 34,
+    "category": "Pendidikan",
+    "tone": "formal",
+    "template": "Panduan akademis untuk memahami {keyword}: Konsep kunci dan metodologi penelitian."
+  },
+  {
+    "id": 35,
+    "category": "Pendidikan",
+    "tone": "casual",
+    "template": "Ilmu di balik {keyword}: Fakta, mitos, dan wawasan ahli yang gak boleh dilewatkan."
+  },
+  {
+    "id": 36,
+    "category": "Pendidikan",
+    "tone": "casual",
+    "template": "Cara jitu belajar {keyword}: Dari pemula sampai pro, gue kasih tau step by step."
+  },
+  {
+    "id": 37,
+    "category": "Pendidikan",
+    "tone": "casual",
+    "template": "Apa sih {keyword} itu? Penjelasan simpel tapi lengkap buat kamu yang penasaran."
+  },
+  {
+    "id": 38,
+    "category": "Pendidikan",
+    "tone": "inspirational",
+    "template": "Kuasi {keyword} dalam 5 menit: Konsep kunci, tips, dan sumber daya untuk pemula dan ahli."
+  },
+  {
+    "id": 39,
+    "category": "Pendidikan",
+    "tone": "inspirational",
+    "template": "Temukan potensi Anda melalui {keyword}: Perjalanan pembelajaran yang menginspirasi."
+  },
+  {
+    "id": 40,
+    "category": "Pendidikan",
+    "tone": "inspirational",
+    "template": "Dari pengetahuan datang kekuatan: Inspirasi untuk menguasai {keyword}."
+  },
+  {
+    "id": 41,
+    "category": "Jualan Halus",
+    "tone": "funny",
+    "template": "Temukan bagaimana {keyword} bisa meningkatkan rutinitas harian kamu – lembut, efektif, dan pas banget buat kamu."
+  },
+  {
+    "id": 42,
+    "category": "Jualan Halus",
+    "tone": "funny",
+    "template": "Kenapa {keyword} adalah game-changer yang diam-diam? Baca ini sambil senyum!"
+  },
+  {
+    "id": 43,
+    "category": "Jualan Halus",
+    "tone": "funny",
+    "template": "Coba {keyword} tanpa ribet: Manfaatnya bikin kamu ketawa karena ternyata gampang banget."
+  },
+  {
+    "id": 44,
+    "category": "Jualan Halus",
+    "tone": "formal",
+    "template": "Bayangkan dunia di mana {keyword} membuat segalanya lebih mudah. Mulai perjalatan Anda hari ini dengan peningkatan halus ini."
+  },
+  {
+    "id": 45,
+    "category": "Jualan Halus",
+    "tone": "formal",
+    "template": "Integrasi {keyword} ke dalam kehidupan Anda: Pendekatan profesional dan efektif."
+  },
+  {
+    "id": 46,
+    "category": "Jualan Halus",
+    "tone": "formal",
+    "template": "Manfaat strategis {keyword}: Peningkatan kualitas hidup tanpa gangguan."
+  },
+  {
+    "id": 47,
+    "category": "Jualan Halus",
+    "tone": "casual",
+    "template": "Kenapa {keyword} adalah game-changer yang tenang yang kamu tunggu? Gak ada hype, cuma manfaat nyata."
+  },
+  {
+    "id": 48,
+    "category": "Jualan Halus",
+    "tone": "casual",
+    "template": "Coba deh {keyword}: Bikin hidup kamu lebih smooth tanpa ribet."
+  },
+  {
+    "id": 49,
+    "category": "Jualan Halus",
+    "tone": "casual",
+    "template": "Rekomendasi simpel: {keyword} yang bikin perbedaan tapi gak ngeganggu."
+  },
+  {
+    "id": 50,
+    "category": "Jualan Halus",
+    "tone": "inspirational",
+    "template": "Tingkatkan pengalaman Anda dengan {keyword}: Sentuhan halus yang membuat perbedaan besar dalam hidup Anda."
+  },
+  {
+    "id": 51,
+    "category": "Jualan Halus",
+    "tone": "inspirational",
+    "template": "Temukan kedamaian melalui {keyword}: Inspirasi untuk hidup yang lebih baik."
+  },
+  {
+    "id": 52,
+    "category": "Jualan Halus",
+    "tone": "inspirational",
+    "template": "Elevasi diri dengan {keyword}: Perjalanan menuju kehidupan yang lebih bermakna."
+  },
+  {
+    "id": 53,
+    "category": "Penceritaan",
+    "tone": "funny",
+    "template": "Pada suatu waktu, {keyword} mengubah ide sederhana menjadi petualangan epik. Ini ceritanya yang kocak."
+  },
+  {
+    "id": 54,
+    "category": "Penceritaan",
+    "tone": "funny",
+    "template": "Kisah lucu di balik {keyword}: Dari gagal jadi sukses besar!"
+  },
+  {
+    "id": 55,
+    "category": "Penceritaan",
+    "tone": "funny",
+    "template": "Petualangan {keyword} yang penuh tawa: Jangan sampai ketinggalan ceritanya."
+  },
+  {
+    "id": 56,
+    "category": "Penceritaan",
+    "tone": "formal",
+    "template": "Cerita tak terungkap tentang {keyword}: Dari awal sederhana hingga menjadi legenda."
+  },
+  {
+    "id": 57,
+    "category": "Penceritaan",
+    "tone": "formal",
+    "template": "Narasi historis {keyword}: Perjalanan dari inovasi hingga penerimaan global."
+  },
+  {
+    "id": 58,
+    "category": "Penceritaan",
+    "tone": "formal",
+    "template": "Analisis kronologis: Bagaimana {keyword} berevolusi menjadi fenomena budaya."
+  },
+  {
+    "id": 59,
+    "category": "Penceritaan",
+    "tone": "casual",
+    "template": "Perjalanan melalui dunia {keyword}: Cerita inovasi, tantangan, dan kesuksesan yang mengagumkan."
+  },
+  {
+    "id": 60,
+    "category": "Penceritaan",
+    "tone": "casual",
+    "template": "Kisah {keyword} yang gue tau: Dari ide kecil jadi besar banget."
+  },
+  {
+    "id": 61,
+    "category": "Penceritaan",
+    "tone": "casual",
+    "template": "Cek cerita di balik {keyword}: Penuh twist dan inspirasi."
+  },
+  {
+    "id": 62,
+    "category": "Penceritaan",
+    "tone": "inspirational",
+    "template": "Di balik layar: Narasi inspiratif tentang bagaimana {keyword} menawan hati dan mengubah pikiran selamanya."
+  },
+  {
+    "id": 63,
+    "category": "Penceritaan",
+    "tone": "inspirational",
+    "template": "Kisah perjuangan {keyword}: Dari mimpi menjadi kenyataan yang menginspirasi."
+  },
+  {
+    "id": 64,
+    "category": "Storytelling",
+    "tone": "inspirational",
+    "template": "Narasi keberhasilan {keyword}: Bagaimana satu ide mengubah jutaan hidup."
+  },
+  {
+    "id": 65,
+    "category": "Hook Viral",
+    "tone": "funny",
+    "template": "Wah, {keyword} lagi nge-trend banget! Ini rahasianya yang bikin orang ketawa-ketawa."
+  },
+  {
+    "id": 66,
+    "category": "Hook Viral",
+    "tone": "funny",
+    "template": "Bayangin kalau {keyword} bisa bikin hidup lo lebih seru – viralnya sampe bikin orang gila!"
+  },
+  {
+    "id": 67,
+    "category": "Hook Viral",
+    "tone": "funny",
+    "template": "Tahu ga kalau {keyword} punya sisi lucu yang jarang orang sadari? Ini lagi meledak nih!"
+  },
+  {
+    "id": 68,
+    "category": "Hook Viral",
+    "tone": "formal",
+    "template": "Fenomena {keyword} yang sedang viral: Analisis mendalam tentang dampaknya terhadap masyarakat."
+  },
+  {
+    "id": 69,
+    "category": "Hook Viral",
+    "tone": "formal",
+    "template": "Kebenaran tersembunyi {keyword} yang sedang menjadi perbincangan global."
+  },
+  {
+    "id": 70,
+    "category": "Hook Viral",
+    "tone": "casual",
+    "template": "Eh, {keyword} lagi hits banget ya? Gue kasih tau kenapa sih."
+  },
+  {
+    "id": 71,
+    "category": "Hook Viral",
+    "tone": "casual",
+    "template": "Tren {keyword} yang lagi rame – simpel aja penjelasannya."
+  },
+  {
+    "id": 72,
+    "category": "Hook Viral",
+    "tone": "inspirational",
+    "template": "Temukan inspirasi dari {keyword}: Kisah viral yang mengubah perspektif hidup."
+  },
+  {
+    "id": 73,
+    "category": "Hook Viral",
+    "tone": "inspirational",
+    "template": "Dari biasa jadi luar biasa: Perjalanan inspiratif {keyword} yang sedang viral."
+  },
+  {
+    "id": 74,
+    "category": "Pendidikan",
+    "tone": "funny",
+    "template": "Belajar {keyword} sambil ketawa: Tips lucu yang bikin paham cepet!"
+  },
+  {
+    "id": 75,
+    "category": "Pendidikan",
+    "tone": "funny",
+    "template": "Rahasia {keyword} yang kocak: Jangan sampe ketawa sendiri pas baca ini."
+  },
+  {
+    "id": 76,
+    "category": "Pendidikan",
+    "tone": "formal",
+    "template": "Pendidikan komprehensif tentang {keyword}: Dari teori hingga praktik."
+  },
+  {
+    "id": 77,
+    "category": "Pendidikan",
+    "tone": "formal",
+    "template": "Panduan formal untuk menguasai {keyword} dalam konteks modern."
+  },
+  {
+    "id": 78,
+    "category": "Pendidikan",
+    "tone": "formal",
+    "template": "Studi mendalam {keyword}: Aspek teoritis dan aplikasinya dalam dunia nyata."
+  },
+  {
+    "id": 79,
+    "category": "Pendidikan",
+    "tone": "casual",
+    "template": "Cara mudah belajar {keyword}: Gue jelasin step by step tanpa ribet."
+  },
+  {
+    "id": 80,
+    "category": "Pendidikan",
+    "tone": "casual",
+    "template": "Apa aja yang perlu tau tentang {keyword}? Simpel banget kok."
+  },
+  {
+    "id": 81,
+    "category": "Pendidikan",
+    "tone": "inspirational",
+    "template": "Inspirasi belajar {keyword}: Temukan potensi diri Anda melalui pengetahuan."
+  },
+  {
+    "id": 82,
+    "category": "Pendidikan",
+    "tone": "inspirational",
+    "template": "Perjalanan pembelajaran {keyword} yang menginspirasi dan memotivasi."
+  },
+  {
+    "id": 83,
+    "category": "Jualan Halus",
+    "tone": "funny",
+    "template": "Coba {keyword} dengan cara yang fun: Manfaatnya bikin kamu tersenyum terus."
+  },
+  {
+    "id": 84,
+    "category": "Jualan Halus",
+    "tone": "funny",
+    "template": "Kenapa {keyword} cocok banget buat kamu? Jawabannya bikin ketawa!"
+  },
+  {
+    "id": 85,
+    "category": "Jualan Halus",
+    "tone": "formal",
+    "template": "Integrasi {keyword} ke dalam rutinitas Anda: Pendekatan profesional untuk peningkatan kualitas hidup."
+  },
+  {
+    "id": 86,
+    "category": "Jualan Halus",
+    "tone": "formal",
+    "template": "Manfaat strategis {keyword}: Peningkatan efisiensi tanpa kompromi."
+  },
+  {
+    "id": 87,
+    "category": "Jualan Halus",
+    "tone": "casual",
+    "template": "Coba deh {keyword}: Bikin hidup lebih enak tanpa ribet."
+  },
+  {
+    "id": 88,
+    "category": "Jualan Halus",
+    "tone": "casual",
+    "template": "Rekomendasi simpel buat {keyword}: Pas banget buat kamu yang sibuk."
+  },
+  {
+    "id": 89,
+    "category": "Jualan Halus",
+    "tone": "casual",
+    "template": "Gunain {keyword} aja: Mudah, praktis, dan bikin perbedaan."
+  },
+  {
+    "id": 90,
+    "category": "Jualan Halus",
+    "tone": "inspirational",
+    "template": "Tingkatkan diri dengan {keyword}: Inspirasi untuk hidup yang lebih baik dan bermakna."
+  },
+  {
+    "id": 91,
+    "category": "Jualan Halus",
+    "tone": "inspirational",
+    "template": "Temukan kedamaian dan kebahagiaan melalui {keyword}: Perjalanan halus menuju kesuksesan."
+  },
+  {
+    "id": 92,
+    "category": "Penceritaan",
+    "tone": "funny",
+    "template": "Kisah kocak di balik {keyword}: Dari gagal total jadi sukses besar!"
+  },
+  {
+    "id": 93,
+    "category": "Penceritaan",
+    "tone": "funny",
+    "template": "Petualangan {keyword} yang penuh tawa: Cerita yang bikin hari kamu lebih ceria."
+  },
+  {
+    "id": 94,
+    "category": "Penceritaan",
+    "tone": "formal",
+    "template": "Narasi historis {keyword}: Perjalanan evolusi dari konsep hingga fenomena."
+  },
+  {
+    "id": 95,
+    "category": "Penceritaan",
+    "tone": "formal",
+    "template": "Analisis kronologis perkembangan {keyword}: Dari inovasi hingga adopsi massal."
+  },
+  {
+    "id": 96,
+    "category": "Penceritaan",
+    "tone": "casual",
+    "template": "Cerita {keyword} yang gue tau: Dari kecil jadi besar, penuh inspirasi."
+  },
+  {
+    "id": 97,
+    "category": "Penceritaan",
+    "tone": "casual",
+    "template": "Kisah di balik {keyword}: Simpel tapi mengagumkan banget."
+  },
+  {
+    "id": 98,
+    "category": "Penceritaan",
+    "tone": "inspirational",
+    "template": "Narasi inspiratif {keyword}: Bagaimana satu ide mengubah dunia dan hidup banyak orang."
+  },
+  {
+    "id": 99,
+    "category": "Penceritaan",
+    "tone": "inspirational",
+    "template": "Kisah perjuangan dan kemenangan {keyword}: Inspirasi untuk mengejar mimpi."
+  },
+  {
+    "id": 100,
+    "category": "Penceritaan",
+    "tone": "inspirational",
+    "template": "Perjalanan epik {keyword}: Dari visi menjadi realitas yang menginspirasi generasi."
+  }
+]

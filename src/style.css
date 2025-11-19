@@ -1,1 +1,131 @@
 @import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+  }
+  h1 {
+    font-weight: 700;
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  .ornament {
+    position: absolute;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.3;
+  }
+
+  .shape-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(59, 130, 246, 0.2);
+    left: 5%;
+    top: 10%;
+  }
+
+  .shape-square {
+    width: 50px;
+    height: 50px;
+    background: rgba(14, 165, 233, 0.2);
+    right: 5%;
+    top: 15%;
+    transform: rotate(15deg);
+  }
+
+  .shape-triangle {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 52px solid rgba(37, 99, 235, 0.2);
+    left: 10%;
+    bottom: 10%;
+  }
+
+  .shape-hexagon {
+    width: 55px;
+    height: 48px;
+    background: rgba(99, 102, 241, 0.2);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%);
+    right: 10%;
+    bottom: 15%;
+    transform: rotate(-10deg);
+  }
+
+  .shape-star {
+    width: 50px;
+    height: 50px;
+    background: rgba(30, 58, 138, 0.2);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    left: 45%;
+    top: 75%;
+    transform: rotate(25deg);
+  }
+
+  @media (max-width: 640px) {
+    .ornament {
+      display: none;
+    }
+  }
+  @keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    75% {
+      transform: translateX(5px);
+    }
+  }
+
+  .shake {
+    animation: shake 0.5s ease-in-out;
+  }
+
+  .loading {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+
+  .card-hover {
+    transition: all 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 212, 255, 0.3);
+  }
+
+  .button-hover {
+    transition: all 0.3s ease;
+  }
+
+  .button-hover:hover {
+    transform: scale(1.05);
+  }
+
+  .skeleton {
+    @apply bg-linear-to-r from-sky-50 to-blue-50;
+    background-size: 200% 100%;
+    animation: skeletonLoading 1.5s infinite;
+  }
+
+  @keyframes skeletonLoading {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+}
