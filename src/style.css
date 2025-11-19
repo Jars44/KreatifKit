@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+:root {
+  --primary-purple: #8B5CF6;
+  --primary-teal: #06B6D4;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -127,5 +132,89 @@
     100% {
       background-position: 200% 0;
     }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in-up {
+    animation: fadeInUp 0.8s ease-out;
+  }
+
+  .ripple {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ripple::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+  }
+
+  .ripple:active::before {
+    width: 300px;
+    height: 300px;
+  }
+
+  .icon-rotate {
+    transition: transform 0.3s ease;
+  }
+
+  .icon-rotate:hover {
+    transform: rotate(360deg);
+  }
+
+  .features-section .bg-white\/60 {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .features-section h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+
+  .features-section h3 {
+    font-weight: 600;
+  }
+
+  .features-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .features-section h2 {
+      font-size: 2rem;
+    }
+  }
+
+  @keyframes floating {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .floating {
+    animation: floating 3s ease-in-out infinite;
   }
 }

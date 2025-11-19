@@ -12,7 +12,19 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body class="font-['Poppins'] text-black min-h-screen">
-    <section
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200/50 shadow-lg">
+      <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="text-2xl font-bold bg-linear-to-r from-sky-400 to-blue-700 bg-clip-text text-transparent">
+          KreatifKit
+        </div>
+        <ul class="hidden md:flex space-x-8">
+          <li><a href="#home" class="text-gray-700 hover:text-sky-500 transition-colors duration-300">Beranda</a></li>
+          <li><a href="#features" class="text-gray-700 hover:text-sky-500 transition-colors duration-300">Fitur</a></li>
+          <li><a href="#generator" class="text-gray-700 hover:text-sky-500 transition-colors duration-300">Hasilkan</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home"
       class="description-section min-h-screen bg-linear-to-b from-sky-100 to-blue-100 relative flex items-center justify-center"
     >
       <div class="container mx-auto px-4 text-center">
@@ -25,14 +37,76 @@
         </p>
         <button
           id="scroll-to-generator"
-          class="px-8 py-3 bg-linear-to-r from-sky-400 to-blue-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center space-x-2 mx-auto"
+          class="px-8 py-3 bg-linear-to-r from-sky-400 to-blue-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center space-x-2 mx-auto ripple"
         >
           <i class="fas fa-arrow-down"></i>
           <span>Hasilkan Ide Kontenmu Sekarang!</span>
         </button>
       </div>
+      <!-- Mockup Cards -->
+      <div class="hidden lg:block floating" style="position: absolute; top: 25%; left: 8%; transform: rotate(-6deg);">
+        <div class="bg-white shadow-xl rounded-2xl p-4 w-48">
+          <h3 class="text-lg font-semibold mb-2">Input</h3>
+          <label for="topic-input" class="block text-sm font-medium text-gray-700 mb-1">Topic</label>
+          <input type="text" id="topic-input" placeholder="Enter topic..." class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-400">
+        </div>
+      </div>
+      <div class="hidden lg:block floating" style="position: absolute; top: 25%; right: 8%; transform: rotate(6deg);">
+        <div class="bg-white shadow-xl rounded-2xl p-4 w-48">
+          <div class="flex items-center mb-2">
+            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+            <h3 class="text-lg font-semibold">Result</h3>
+          </div>
+          <p class="text-sm text-gray-700">Viral Hook</p>
+        </div>
+      </div>
+      <div class="hidden lg:block floating" style="position: absolute; top: 65%; left: 8%; transform: rotate(-1deg);">
+        <div class="bg-white shadow-xl rounded-2xl p-4 w-48">
+          <h3 class="text-lg font-semibold mb-2">Customize</h3>
+          <label for="tone-dropdown" class="block text-sm font-medium text-gray-700 mb-1">Tone</label>
+          <select id="tone-dropdown" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-400">
+            <option value="funny">Funny</option>
+            <option value="formal">Formal</option>
+            <option value="casual">Casual</option>
+            <option value="inspirational">Inspirational</option>
+          </select>
+        </div>
+      </div>
+      <div class="hidden lg:block floating" style="position: absolute; top: 65%; right: 8%; transform: rotate(1deg);">
+        <div class="bg-white shadow-xl rounded-2xl p-4 w-48">
+          <h3 class="text-lg font-semibold mb-2">Share</h3>
+          <div class="flex space-x-2">
+            <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors duration-300"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-gray-600 hover:text-sky-500 transition-colors duration-300"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-gray-600 hover:text-pink-500 transition-colors duration-300"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-gray-600 hover:text-blue-700 transition-colors duration-300"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="generator" class="generator-section min-h-screen relative flex items-center justify-center py-16">
+    <section id="features" class="features-section py-16 bg-linear-to-b from-blue-50 to-purple-50 fade-in-up">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center mb-8 py-4 bg-linear-to-r from-purple-600 to-teal-600 bg-clip-text text-transparent">Fitur Unggulan</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white/60 backdrop-blur-lg rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-center fade-in-up">
+            <i class="fas fa-brain text-4xl text-purple-500 mb-4 icon-rotate"></i>
+            <h3 class="text-xl font-semibold mb-2">AI-Powered Generation</h3>
+            <p class="text-gray-600">Hasilkan ide konten kreatif dengan kecerdasan buatan terdepan untuk inspirasi tak terbatas.</p>
+          </div>
+          <div class="bg-white/60 backdrop-blur-lg rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-center fade-in-up">
+            <i class="fas fa-palette text-4xl text-teal-500 mb-4 icon-rotate"></i>
+            <h3 class="text-xl font-semibold mb-2">Multiple Tones</h3>
+            <p class="text-gray-600">Pilih nada yang sesuai: lucu, resmi, santai, atau inspiratif untuk konten yang tepat sasaran.</p>
+          </div>
+          <div class="bg-white/60 backdrop-blur-lg rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-center fade-in-up">
+            <i class="fas fa-bolt text-4xl text-sky-500 mb-4 icon-rotate"></i>
+            <h3 class="text-xl font-semibold mb-2">Instant Results</h3>
+            <p class="text-gray-600">Dapatkan ide-ide segar dalam hitungan detik tanpa menunggu lama.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="generator" class="generator-section min-h-screen relative flex items-center justify-center py-16 fade-in-up">
       <div class="container mx-auto px-4 p-6 relative">
         <div class="flex flex-col md:flex-row justify-center items-center mb-8 space-y-4 md:space-y-0 md:space-x-4">
           <input
@@ -53,7 +127,7 @@
           </select>
           <button
             id="generate-btn"
-            class="px-8 py-3 bg-linear-to-r from-sky-400 to-blue-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center space-x-2"
+            class="px-8 py-3 bg-linear-to-r from-sky-400 to-blue-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center space-x-2 ripple"
           >
             <i class="fas fa-magic"></i>
             <span>Hasilkan</span>

@@ -36,6 +36,23 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Randomize positions of mockup cards
+  const cards = document.querySelectorAll('#home > div.absolute');
+  const textContainer = document.querySelector('#home .container');
+  const textRect = textContainer.getBoundingClientRect();
+  cards.forEach(card => {
+    let top, left, attempts = 0, overlaps;
+    do {
+      top = Math.random() * 70 + 10; // 10% to 80%
+      left = Math.random() * 80 + 10; // 10% to 90%
+      card.style.top = `${top}%`;
+      card.style.left = `${left}%`;
+      const cardRect = card.getBoundingClientRect();
+      overlaps = !(cardRect.right < textRect.left || cardRect.left > textRect.right || cardRect.bottom < textRect.top || cardRect.top > textRect.bottom);
+      attempts++;
+    } while (overlaps && attempts < 100);
+  });
+
   const sanitize = (str) => str.trim().replace(/\b\w/g, (l) => l.toUpperCase());
 
   const getCategoryIcon = (category) => {
