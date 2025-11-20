@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const input = document.getElementById("keywordInput");
   const btn = document.getElementById("generateBtn");
   const error = document.getElementById("error-text");
-  const grid = document.getElementById("output-grid");
+  const grid = document.getElementById("cardsGrid");
   const toast = document.getElementById("toast");
 
   const tones = [
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const toneContainer = document.getElementById("toneContainer");
   tones.forEach((tone) => {
     const btn = document.createElement("button");
-    btn.className = `tone-btn p-3  border-2 rounded-xl transition-all cursor-pointer ${
+    btn.className = `tone-btn p-3 border-2 rounded-xl transition-all cursor-pointer ${
       selectedTone === tone.value ? "border-sky-500 bg-sky-50" : "bg-white/50"
     }`;
     btn.innerHTML = `<i class="${tone.icon} text-lg mb-1"></i><br><span class="text-sm font-medium">${tone.label}</span>`;
@@ -122,6 +122,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     error.classList.add("hidden");
     btn.classList.add("loading");
+    btn.disabled = true;
+    const loader = document.createElement("div");
+    loader.className = "loader ml-3";
+    btn.appendChild(loader);
     btn.querySelector("span").textContent = "Menghasilkan...";
     grid.innerHTML = "";
     for (let i = 0; i < 15; i++) {
@@ -155,16 +159,16 @@ document.addEventListener("DOMContentLoaded", () => {
       grid.innerHTML = "";
       outputs.forEach((out) => {
         const card = document.createElement("div");
-        card.className =
-          "relative z-10 bg-white/90 backdrop-blur-sm p-6 rounded-lg shadow-lg border border-sky-400/30 card-hover";
+        card.className = "idea-card glass-card p-6 rounded-2xl relative group cursor-pointer";
         card.innerHTML = `
-        <div class="mb-4">
-          <span class="category-chip bg-linear-to-r from-sky-400 to-blue-700 text-white text-xs px-2 py-1">
-            <i class="${getCategoryIcon(out.category)} mr-1"></i>
-            ${out.category}
-          </span>
+        <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity text-slate-400">
+          <i class="fas fa-copy"></i>
         </div>
-        <p class="text-gray-700 mb-4 leading-relaxed">${out.text}</p>
+        <div class="mb-2">
+          <span class="text-[10px] font-bold tracking-wider uppercase text-slate-400 border border-slate-200 px-2 py-0.5 rounded-full">${out.category}</span>
+        </div>
+        <h3 class="text-xl font-lg text-slate-800 mb-2 leading-tight transition-colors">${out.text}</h3>
+        <p class="text-gray-700 mb-4 leading-relaxed">&nbsp;</p>
         <button class="copy-btn bg-linear-to-r from-sky-400 to-blue-700 text-white px-4 py-2 rounded-lg button-hover shadow-md flex items-center space-x-2 cursor-pointer">
           <i class="copy-icon fas fa-copy"></i>
           <i class="copied fas fa-check text-white"></i>
@@ -175,19 +179,41 @@ document.addEventListener("DOMContentLoaded", () => {
       });
       document.querySelectorAll(".copy-btn").forEach((copyBtn) => {
         copyBtn.addEventListener("click", () => {
-          navigator.clipboard.writeText(copyBtn.previousElementSibling.textContent);
-          toast.classList.remove("pointer-events-none");
-          setTimeout(() => toast.classList.remove("opacity-0"), 20);
-          setTimeout(() => toast.classList.add("opacity-0"), 2000);
-          setTimeout(() => toast.classList.add("pointer-events-none"), 2300);
+          const card = copyBtn.closest(".relative");
+          const title = card.querySelector("h3")?.textContent || "";
+          const desc = card.querySelector("p")?.textContent || "";
+          navigator.clipboard.writeText(`${title}\n\n${desc}`);
+          toast.style.transform = "translateX(0)";
+          setTimeout(() => {
+            toast.style.transform = "translateX(120%)";
+          }, 2000);
           copyBtn.classList.add("copied");
           setTimeout(() => copyBtn.classList.remove("copied"), 1400);
         });
       });
       btn.classList.remove("loading");
       btn.querySelector("span").textContent = "Hasilkan";
+      btn.disabled = false;
+      if (loader && loader.parentNode === btn) btn.removeChild(loader);
+      // show results container
+      const resultsContainer = document.getElementById("resultsContainer");
+      const resultCountText = document.getElementById("resultCountText");
+      if (resultsContainer && resultCountText) {
+        resultCountText.textContent = `Ditemukan ${outputs.length} ide untuk "${keyword}"`;
+        resultsContainer.classList.remove("hidden");
+        resultsContainer.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     }, 600);
   });
+
+  const clearBtn = document.getElementById("clearResults");
+  if (clearBtn) {
+    clearBtn.addEventListener("click", () => {
+      grid.innerHTML = "";
+      const resultsContainer = document.getElementById("resultsContainer");
+      if (resultsContainer) resultsContainer.classList.add("hidden");
+    });
+  }
 
   document.querySelectorAll(".ripple").forEach((r) => {
     r.addEventListener("click", function (e) {
