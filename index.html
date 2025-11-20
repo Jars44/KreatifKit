@@ -13,18 +13,33 @@
   </head>
   <body class="font-['Poppins'] text-black min-h-screen">
     <header class="fixed top-0 left-0 right-0 z-999 bg-white/80 backdrop-blur-lg border-b border-gray-200/50 shadow-lg">
-      <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div class="text-2xl font-bold bg-linear-to-r from-sky-400 to-blue-700 bg-clip-text text-transparent">
-          KreatifKit
+      <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+          <a href="#home" class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-linear-to-r from-purple-600 to-sky-400 flex items-center justify-center text-white shadow-md">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <div class="text-2xl font-bold bg-linear-to-r from-sky-400 to-blue-700 bg-clip-text text-transparent">KreatifKit</div>
+          </a>
         </div>
-        <ul class="hidden md:flex space-x-8">
+        <ul id="navLinks" class="hidden md:flex space-x-8 items-center">
           <li><a href="#home" class="text-gray-700 hover:text-sky-500 transition-colors duration-300">Beranda</a></li>
           <li><a href="#features" class="text-gray-700 hover:text-sky-500 transition-colors duration-300">Fitur</a></li>
-          <li>
-            <a href="#generator" class="text-gray-700 hover:text-sky-500 transition-colors duration-300">Hasilkan</a>
-          </li>
+          <li><a href="#generator" class="text-gray-700 hover:text-sky-500 transition-colors duration-300">Hasilkan</a></li>
         </ul>
+        <div class="md:hidden">
+          <button id="navToggle" aria-label="Toggle menu" aria-expanded="false" class="p-2 rounded-md text-gray-700 hover:text-sky-500 transition-colors duration-200">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
+        </div>
       </nav>
+      <div id="mobileMenu" class="md:hidden mobile-nav bg-white/90 border-t border-gray-200/50 hidden">
+        <ul class="flex flex-col px-4 py-3 space-y-2">
+          <li><a href="#home" class="block py-2 text-gray-700 hover:bg-sky-50 rounded-md">Beranda</a></li>
+          <li><a href="#features" class="block py-2 text-gray-700 hover:bg-sky-50 rounded-md">Fitur</a></li>
+          <li><a href="#generator" class="block py-2 text-gray-700 hover:bg-sky-50 rounded-md">Hasilkan</a></li>
+        </ul>
+      </div>
     </header>
     <section
       id="home"
@@ -63,7 +78,6 @@
           </div>
         </div>
       </div>
-      <!-- Mockup Cards -->
       <div class="hidden lg:block floating" style="position: absolute; top: 25%; left: 8%; transform: rotate(-6deg)">
         <div class="bg-white shadow-xl rounded-2xl p-4 w-48">
           <h3 class="text-lg font-semibold mb-2">Input</h3>
@@ -217,11 +231,30 @@
     </section>
     <div
       id="toast"
-      class="fixed bottom-4 right-4 bg-linear-to-r from-sky-400 to-blue-700 text-white px-4 py-2 rounded-lg shadow-2xl backdrop-blur-lg border border-white/20 opacity-0 transition-all duration-300 flex items-center space-x-2"
+      class="fixed bottom-4 right-4 z-200 bg-linear-to-r from-sky-400 to-blue-700 text-white px-4 py-2 rounded-lg shadow-2xl backdrop-blur-lg border border-white/20 opacity-0 transition-all duration-300 flex items-center space-x-2 pointer-events-none"
     >
       <i class="fas fa-check"></i>
       <span>Disalin ke clipboard!</span>
     </div>
-    <script type="module" src="script.js"></script>
+    </div>
+    <footer class="border-t-2 border-gray-400/20 shadow-2xl mt-12 py-8 bg-white/90">
+      <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-linear-to-r from-purple-600 to-sky-400 flex items-center justify-center text-white shadow-md">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <div>
+            <div class="text-lg font-semibold text-slate-800">KreatifKit</div>
+            <div class="text-sm text-slate-500">Inspirasikan kontenmu — cepat & mudah</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="#" class="text-slate-600 hover:text-sky-500"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-slate-600 hover:text-sky-500"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-slate-600 hover:text-sky-500"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="src/script.js"></script>
   </body>
 </html>

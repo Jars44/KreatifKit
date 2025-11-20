@@ -1,11 +1,10 @@
 let templates = [];
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("./data.json")
+  fetch("/data.json")
     .then((response) => response.json())
     .then((data) => {
       templates = data;
-      console.log("Data loaded:", templates.length, "templates");
     })
     .catch((error) => {
       console.error("Error loading data:", error);
@@ -46,6 +45,23 @@ document.addEventListener("DOMContentLoaded", () => {
   scrollBtn.addEventListener("click", () => {
     document.getElementById("generator").scrollIntoView({ behavior: "smooth" });
   });
+
+  const navToggle = document.getElementById("navToggle");
+  const mobileMenu = document.getElementById("mobileMenu");
+  if (navToggle && mobileMenu) {
+    navToggle.addEventListener("click", () => {
+      const isHidden = mobileMenu.classList.contains("hidden");
+      if (isHidden) {
+        mobileMenu.classList.remove("hidden");
+        navToggle.innerHTML = '<i class="fas fa-times text-xl"></i>';
+        navToggle.setAttribute("aria-expanded", "true");
+      } else {
+        mobileMenu.classList.add("hidden");
+        navToggle.innerHTML = '<i class="fas fa-bars text-xl"></i>';
+        navToggle.setAttribute("aria-expanded", "false");
+      }
+    });
+  }
 
   document.querySelectorAll(".ornament").forEach((ornament) => {
     const size = Math.floor(Math.random() * (250 - 50 + 1)) + 50;
@@ -97,7 +113,6 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   btn.addEventListener("click", () => {
-    console.log("Generate button clicked");
     const keyword = sanitize(input.value);
     if (!keyword) {
       input.classList.add("shake");
@@ -144,14 +159,15 @@ document.addEventListener("DOMContentLoaded", () => {
           "relative z-10 bg-white/90 backdrop-blur-sm p-6 rounded-lg shadow-lg border border-sky-400/30 card-hover";
         card.innerHTML = `
         <div class="mb-4">
-          <span class="inline-flex items-center bg-linear-to-r from-sky-400 to-blue-700 text-white text-xs font-semibold px-2 py-1 rounded-full">
+          <span class="category-chip bg-linear-to-r from-sky-400 to-blue-700 text-white text-xs px-2 py-1">
             <i class="${getCategoryIcon(out.category)} mr-1"></i>
             ${out.category}
           </span>
         </div>
         <p class="text-gray-700 mb-4 leading-relaxed">${out.text}</p>
         <button class="copy-btn bg-linear-to-r from-sky-400 to-blue-700 text-white px-4 py-2 rounded-lg button-hover shadow-md flex items-center space-x-2 cursor-pointer">
-          <i class="fas fa-copy"></i>
+          <i class="copy-icon fas fa-copy"></i>
+          <i class="copied fas fa-check text-white"></i>
           <span>Salin</span>
         </button>
       `;
@@ -160,13 +176,39 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelectorAll(".copy-btn").forEach((copyBtn) => {
         copyBtn.addEventListener("click", () => {
           navigator.clipboard.writeText(copyBtn.previousElementSibling.textContent);
-          toast.classList.remove("opacity-0");
+          toast.classList.remove("pointer-events-none");
+          setTimeout(() => toast.classList.remove("opacity-0"), 20);
           setTimeout(() => toast.classList.add("opacity-0"), 2000);
-          setTimeout(() => toast.classList.add("hidden"), 2300);
+          setTimeout(() => toast.classList.add("pointer-events-none"), 2300);
+          copyBtn.classList.add("copied");
+          setTimeout(() => copyBtn.classList.remove("copied"), 1400);
         });
       });
       btn.classList.remove("loading");
       btn.querySelector("span").textContent = "Hasilkan";
     }, 600);
+  });
+
+  document.querySelectorAll(".ripple").forEach((r) => {
+    r.addEventListener("click", function (e) {
+      const rect = this.getBoundingClientRect();
+      const size = Math.max(rect.width, rect.height) * 2;
+      const circle = document.createElement("span");
+      circle.style.position = "absolute";
+      circle.style.width = circle.style.height = size + "px";
+      circle.style.left = e.clientX - rect.left - size / 2 + "px";
+      circle.style.top = e.clientY - rect.top - size / 2 + "px";
+      circle.style.background = "rgba(255,255,255,0.35)";
+      circle.style.borderRadius = "50%";
+      circle.style.transform = "scale(0)";
+      circle.style.transition = "transform 0.5s ease, opacity 0.5s ease";
+      circle.style.pointerEvents = "none";
+      this.appendChild(circle);
+      requestAnimationFrame(() => (circle.style.transform = "scale(1)"));
+      setTimeout(() => {
+        circle.style.opacity = "0";
+        setTimeout(() => circle.remove(), 500);
+      }, 350);
+    });
   });
 });

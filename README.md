@@ -91,7 +91,7 @@ npm run preview
 3. Klik `Hasilkan` untuk menghasilkan ide konten.
 4. Klik `Salin` pada kartu mana pun untuk menyalin konten ke clipboard Anda.
 
-Generator mengambil template dari `data.json` dan menukar placeholder `{keyword}` Anda.
+Generator mengambil template dari `public/data.json` dan menukar placeholder `{keyword}` Anda.
 
 ---
 
@@ -99,9 +99,9 @@ Generator mengambil template dari `data.json` dan menukar placeholder `{keyword}
 
 - `index.html` — HTML aplikasi, layout, dan markup elemen utama
 - `src/style.css` — Tailwind + gaya kustom
-- `script.js` — logika UI utama dan kode generator (memuat `data.json`, menerapkan filter, dan merender kartu)
-- `main.js` — placeholder (saat ini kosong)
-- `data.json` — database template (array objek dengan `category`, `tone`, dan `template`)
+- `src/script.js` — logika UI utama dan kode generator (memuat `data.json`, menerapkan filter, dan merender kartu)
+- `src/main.js` — placeholder (saat ini kosong)
+- `public/data.json` — database template (array objek dengan `category`, `tone`, dan `template`)
 - `package.json` — dependensi proyek dan skrip (Vite, Tailwind)
 - `tailwind.config.js`, `postcss.config.js` — konfigurasi Tailwind
 
@@ -120,12 +120,12 @@ Catatan: Meskipun UI mengatakan "AI-Powered" di teks hero, repo ini saat ini men
 
 ## Kustomisasi ✨
 
-- Tambah/edit template: Buka `data.json` dan tambahkan objek baru dengan `id`, `category`, `tone`, dan `template`. Gunakan `{keyword}` sebagai placeholder untuk input pengguna.
-- Tambah nada baru: Update array `tones` di `script.js` untuk menambah tombol nada baru. Jangan lupa tambahkan template yang cocok dengan nada itu di `data.json`.
+- Tambah/edit template: Buka `public/data.json` dan tambahkan objek baru dengan `id`, `category`, `tone`, dan `template`. Gunakan `{keyword}` sebagai placeholder untuk input pengguna.
+- Tambah nada baru: Update array `tones` di `src/script.js` untuk menambah tombol nada baru. Jangan lupa tambahkan template yang cocok dengan nada itu di `public/data.json`.
 - Edit teks UI dan layout: Update `index.html`.
 - Update gaya: Edit `src/style.css` atau konfigurasi Tailwind.
 
-Contoh objek template (dari `data.json`):
+Contoh objek template (dari `public/data.json`):
 
 ```json
 {
