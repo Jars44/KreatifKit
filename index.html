@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body class="font-['Poppins'] text-black min-h-screen">
-    <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200/50 shadow-lg">
+    <header class="fixed top-0 left-0 right-0 z-999 bg-white/80 backdrop-blur-lg border-b border-gray-200/50 shadow-lg">
       <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
         <div class="text-2xl font-bold bg-linear-to-r from-sky-400 to-blue-700 bg-clip-text text-transparent">
           KreatifKit
@@ -30,21 +30,38 @@
       id="home"
       class="description-section min-h-screen bg-linear-to-b from-sky-100 to-blue-100 relative flex items-center justify-center"
     >
-      <div class="container mx-auto px-4 text-center">
-        <h1 class="text-5xl font-bold bg-linear-to-r from-sky-400 to-blue-700 bg-clip-text text-transparent mb-4">
-          KreatifKit
-        </h1>
-        <p class="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed mb-8">
-          KreatifKit adalah alat inovatif untuk menghasilkan ide konten kreatif berdasarkan kata kunci dan nada yang
-          Anda pilih. Dari hook viral hingga konten edukasi, temukan inspirasi tak terbatas untuk proyek kreatif Anda.
-        </p>
-        <button
-          id="scroll-to-generator"
-          class="px-8 py-3 bg-linear-to-r from-sky-400 to-blue-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center space-x-2 mx-auto ripple"
-        >
-          <i class="fas fa-arrow-down"></i>
-          <span>Hasilkan Ide Kontenmu Sekarang!</span>
-        </button>
+      <div class="container mx-auto px-4 text-center relative">
+        <span class="hero-spotlight pointer-events-none"></span>
+        <div class="fade-in-up max-w-4xl mx-auto">
+          <div class="flex justify-center">
+            <div
+              class="hero-badge inline-flex items-center gap-3 bg-white/70 border border-white/30 text-sky-700 px-4 py-1 rounded-full text-sm font-medium shadow-sm mb-6"
+            >
+              <i class="fas fa-rocket text-sm"></i>
+              <span>KreatifKit</span>
+            </div>
+          </div>
+          <h1 class="hero-headline text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-4">
+            <span class="block text-slate-900">Hasilkan ide kontenmu</span>
+            <span
+              class="block bg-clip-text text-transparent bg-linear-to-r from-purple-600 via-sky-500 to-blue-500 text-6xl md:text-7xl lg:text-[82px]"
+              >besar secara instan.</span
+            >
+          </h1>
+          <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-10 font-light">
+            KreatifKit adalah alat inovatif untuk menghasilkan ide konten kreatif berdasarkan kata kunci dan nada yang
+            Anda pilih. Dari hook viral hingga konten edukasi, temukan inspirasi tak terbatas untuk proyek kreatif Anda.
+          </p>
+          <div class="fade-in-up" style="animation-delay: 0.4s">
+            <button
+              id="scroll-to-generator"
+              class="px-10 py-4 bg-linear-to-r from-sky-400 to-blue-700 text-white font-bold text-lg rounded-xl shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300 flex items-center space-x-3 mx-auto ripple glow-effect"
+            >
+              <i class="fas fa-arrow-down"></i>
+              <span>Hasilkan Ide Kontenmu Sekarang!</span>
+            </button>
+          </div>
+        </div>
       </div>
       <!-- Mockup Cards -->
       <div class="hidden lg:block floating" style="position: absolute; top: 25%; left: 8%; transform: rotate(-6deg)">
