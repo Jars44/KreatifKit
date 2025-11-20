@@ -11,12 +11,36 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Error loading data:", error);
     });
 
-  const input = document.getElementById("keyword-input");
-  const toneSelect = document.getElementById("tone-select");
-  const btn = document.getElementById("generate-btn");
+  const input = document.getElementById("keywordInput");
+  const btn = document.getElementById("generateBtn");
   const error = document.getElementById("error-text");
   const grid = document.getElementById("output-grid");
   const toast = document.getElementById("toast");
+
+  const tones = [
+    { value: "all", label: "Semua Nada", icon: "fas fa-list" },
+    { value: "funny", label: "Lucu", icon: "fas fa-laugh-squint" },
+    { value: "formal", label: "Resmi", icon: "fas fa-briefcase" },
+    { value: "casual", label: "Santai", icon: "fas fa-coffee" },
+    { value: "inspirational", label: "Inspiratif", icon: "fas fa-lightbulb" },
+  ];
+
+  let selectedTone = "all";
+
+  const toneContainer = document.getElementById("toneContainer");
+  tones.forEach((tone) => {
+    const btn = document.createElement("button");
+    btn.className = `tone-btn p-3  border-2 rounded-xl transition-all cursor-pointer ${
+      selectedTone === tone.value ? "border-sky-500 bg-sky-50" : "bg-white/50"
+    }`;
+    btn.innerHTML = `<i class="${tone.icon} text-lg mb-1"></i><br><span class="text-sm font-medium">${tone.label}</span>`;
+    btn.addEventListener("click", () => {
+      selectedTone = tone.value;
+      document.querySelectorAll(".tone-btn").forEach((b) => b.classList.remove("border-sky-500", "bg-sky-50"));
+      btn.classList.add("border-sky-500", "bg-sky-50");
+    });
+    toneContainer.appendChild(btn);
+  });
 
   const scrollBtn = document.getElementById("scroll-to-generator");
   scrollBtn.addEventListener("click", () => {
@@ -36,19 +60,26 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Randomize positions of mockup cards
-  const cards = document.querySelectorAll('#home > div.absolute');
-  const textContainer = document.querySelector('#home .container');
+  const cards = document.querySelectorAll("#home > div.absolute");
+  const textContainer = document.querySelector("#home .container");
   const textRect = textContainer.getBoundingClientRect();
-  cards.forEach(card => {
-    let top, left, attempts = 0, overlaps;
+  cards.forEach((card) => {
+    let top,
+      left,
+      attempts = 0,
+      overlaps;
     do {
-      top = Math.random() * 70 + 10; // 10% to 80%
-      left = Math.random() * 80 + 10; // 10% to 90%
+      top = Math.random() * 70 + 10;
+      left = Math.random() * 80 + 10;
       card.style.top = `${top}%`;
       card.style.left = `${left}%`;
       const cardRect = card.getBoundingClientRect();
-      overlaps = !(cardRect.right < textRect.left || cardRect.left > textRect.right || cardRect.bottom < textRect.top || cardRect.top > textRect.bottom);
+      overlaps = !(
+        cardRect.right < textRect.left ||
+        cardRect.left > textRect.right ||
+        cardRect.bottom < textRect.top ||
+        cardRect.top > textRect.bottom
+      );
       attempts++;
     } while (overlaps && attempts < 100);
   });
@@ -92,7 +123,6 @@ document.addEventListener("DOMContentLoaded", () => {
       grid.appendChild(skeleton);
     }
     setTimeout(() => {
-      const selectedTone = toneSelect.value;
       let filteredTemplates = templates;
       if (selectedTone !== "all") {
         filteredTemplates = templates.filter((t) => t.tone === selectedTone);
@@ -120,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </span>
         </div>
         <p class="text-gray-700 mb-4 leading-relaxed">${out.text}</p>
-        <button class="copy-btn bg-linear-to-r from-sky-400 to-blue-700 text-white px-4 py-2 rounded-lg button-hover shadow-md flex items-center space-x-2">
+        <button class="copy-btn bg-linear-to-r from-sky-400 to-blue-700 text-white px-4 py-2 rounded-lg button-hover shadow-md flex items-center space-x-2 cursor-pointer">
           <i class="fas fa-copy"></i>
           <span>Salin</span>
         </button>

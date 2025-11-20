@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --primary-purple: #8B5CF6;
-  --primary-teal: #06B6D4;
+  --primary-purple: #8b5cf6;
+  --primary-teal: #06b6d4;
 }
 
 @layer base {
@@ -155,7 +155,7 @@
   }
 
   .ripple::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -206,7 +206,8 @@
   }
 
   @keyframes floating {
-    0%, 100% {
+    0%,
+    100% {
       transform: translateY(0);
     }
     50% {
@@ -216,5 +217,20 @@
 
   .floating {
     animation: floating 3s ease-in-out infinite;
+  }
+
+  .glass {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .glass-input {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(56, 189, 248, 0.5);
+    border-radius: 1rem;
   }
 }
