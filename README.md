@@ -113,8 +113,9 @@ Generator mengambil template dari `public/data.json` dan menukar placeholder `{k
 2. Saat Anda klik `Hasilkan`, aplikasi memfilter template berdasarkan nada yang dipilih (atau menggunakan semua) dan memilih set acak.
 3. Token `{keyword}` dari setiap template diganti dengan input Anda untuk membuat teks akhir.
 4. Output muncul sebagai kartu (kategori + konten) dengan tombol `Salin` untuk menyalin.
+5. Aplikasi sekarang hanya menggunakan template client-side (`public/data.json`) untuk menghasilkan ide; integrasi AI sudah dihapus.
 
-Catatan: Meskipun UI mengatakan "AI-Powered" di teks hero, repo ini saat ini menggunakan template client-side dan tidak terhubung ke model atau API jaringan untuk generasi.
+Catatan: Aplikasi ini menggunakan template client-side (`public/data.json`) untuk menghasilkan ide konten kreatif tanpa koneksi ke model atau API eksternal.
 
 ---
 
@@ -122,6 +123,7 @@ Catatan: Meskipun UI mengatakan "AI-Powered" di teks hero, repo ini saat ini men
 
 - Tambah/edit template: Buka `public/data.json` dan tambahkan objek baru dengan `id`, `category`, `tone`, dan `template`. Gunakan `{keyword}` sebagai placeholder untuk input pengguna.
 - Tambah nada baru: Update array `tones` di `src/script.js` untuk menambah tombol nada baru. Jangan lupa tambahkan template yang cocok dengan nada itu di `public/data.json`.
+  \- Integrasi AI telah dihapus — gunakan hanya `public/data.json` untuk template.
 - Edit teks UI dan layout: Update `index.html`.
 - Update gaya: Edit `src/style.css` atau konfigurasi Tailwind.
 

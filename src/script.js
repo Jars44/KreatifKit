@@ -16,6 +16,21 @@ document.addEventListener("DOMContentLoaded", () => {
   const grid = document.getElementById("cardsGrid");
   const toast = document.getElementById("toast");
 
+  const showToast = (title = "Disalin!", subtitle = "Tersimpan di clipboard.", ms = 1800) => {
+    if (!toast) return;
+    const titleEl = toast.querySelector(".font-semibold");
+    const subEl = toast.querySelector(".text-xs");
+    if (titleEl) titleEl.textContent = title;
+    if (subEl) subEl.textContent = subtitle;
+    // Use Tailwind classes so transitions work consistently
+    toast.classList.remove("opacity-0", "translate-x-full", "pointer-events-none");
+    // Restore hidden state after a timeout
+    setTimeout(() => {
+      toast.classList.add("opacity-0", "translate-x-full");
+      toast.classList.add("pointer-events-none");
+    }, ms);
+  };
+
   const tones = [
     { value: "all", label: "Semua Nada", icon: "fas fa-list" },
     { value: "funny", label: "Lucu", icon: "fas fa-laugh-squint" },
@@ -29,14 +44,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const toneContainer = document.getElementById("toneContainer");
   tones.forEach((tone) => {
     const btn = document.createElement("button");
-    btn.className = `tone-btn p-3 border-2 rounded-xl transition-all cursor-pointer ${
-      selectedTone === tone.value ? "border-sky-500 bg-sky-50" : "bg-white/50"
+    btn.className = `tone-btn p-3 rounded-xl cursor-pointer flex flex-col items-center justify-center gap-2 h-28 w-28 transition-all duration-200 ${
+      selectedTone === tone.value ? "active" : ""
     }`;
     btn.innerHTML = `<i class="${tone.icon} text-lg mb-1"></i><br><span class="text-sm font-medium">${tone.label}</span>`;
     btn.addEventListener("click", () => {
       selectedTone = tone.value;
-      document.querySelectorAll(".tone-btn").forEach((b) => b.classList.remove("border-sky-500", "bg-sky-50"));
-      btn.classList.add("border-sky-500", "bg-sky-50");
+      document.querySelectorAll(".tone-btn").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
     });
     toneContainer.appendChild(btn);
   });
@@ -63,18 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  document.querySelectorAll(".ornament").forEach((ornament) => {
-    const size = Math.floor(Math.random() * (250 - 50 + 1)) + 50;
-    if (ornament.classList.contains("shape-triangle")) {
-      const scale = size / 60;
-      ornament.style.borderLeftWidth = `${30 * scale}px`;
-      ornament.style.borderRightWidth = `${30 * scale}px`;
-      ornament.style.borderBottomWidth = `${52 * scale}px`;
-    } else {
-      ornament.style.width = `${size}px`;
-      ornament.style.height = `${size}px`;
-    }
-  });
+  // geometric ornaments removed — no sizing needed here
 
   const cards = document.querySelectorAll("#home > div.absolute");
   const textContainer = document.querySelector("#home .container");
@@ -141,52 +145,86 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
       grid.appendChild(skeleton);
     }
-    setTimeout(() => {
-      let filteredTemplates = templates;
-      if (selectedTone !== "all") {
-        filteredTemplates = templates.filter((t) => t.tone === selectedTone);
+    setTimeout(async () => {
+      // AI generation removed — templates-only generation
+      let outputs = [];
+      const usedMode = { type: "templates" };
+
+      // Templates fallback (single source of truth now)
+      if (!outputs || outputs.length === 0) {
+        // Templates fallback (secondary algorithm)
+        let filteredTemplates = templates;
+        if (selectedTone !== "all") {
+          filteredTemplates = templates.filter((t) => t.tone === selectedTone);
+        }
+        const numToSelect = Math.floor(Math.random() * 6) + 10;
+        const selected = [];
+        const shuffled = [...filteredTemplates].sort(() => 0.5 - Math.random());
+        for (let i = 0; i < Math.min(numToSelect, shuffled.length); i++) {
+          selected.push(shuffled[i]);
+        }
+        outputs = selected.map((t) => ({
+          text: t.template.replace("{keyword}", keyword),
+          category: t.category,
+        }));
+        usedMode.type = "templates";
       }
-      const numToSelect = Math.floor(Math.random() * 6) + 10;
-      const selected = [];
-      const shuffled = [...filteredTemplates].sort(() => 0.5 - Math.random());
-      for (let i = 0; i < Math.min(numToSelect, shuffled.length); i++) {
-        selected.push(shuffled[i]);
-      }
-      const outputs = selected.map((t) => ({
-        text: t.template.replace("{keyword}", keyword),
-        category: t.category,
-      }));
       grid.innerHTML = "";
       outputs.forEach((out) => {
         const card = document.createElement("div");
-        card.className = "idea-card glass-card p-6 rounded-2xl relative group cursor-pointer";
+        card.className = "idea-card glass-card p-6 rounded-2xl relative group cursor-pointer z-20";
         card.innerHTML = `
-        <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity text-slate-400">
-          <i class="fas fa-copy"></i>
-        </div>
-        <div class="mb-2">
-          <span class="text-[10px] font-bold tracking-wider uppercase text-slate-400 border border-slate-200 px-2 py-0.5 rounded-full">${out.category}</span>
-        </div>
-        <h3 class="text-xl font-lg text-slate-800 mb-2 leading-tight transition-colors">${out.text}</h3>
-        <p class="text-gray-700 mb-4 leading-relaxed">&nbsp;</p>
-        <button class="copy-btn bg-linear-to-r from-sky-400 to-blue-700 text-white px-4 py-2 rounded-lg button-hover shadow-md flex items-center space-x-2 cursor-pointer">
-          <i class="copy-icon fas fa-copy"></i>
-          <i class="copied fas fa-check text-white"></i>
-          <span>Salin</span>
-        </button>
-      `;
+          <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity text-slate-400">
+            <i class="fas fa-copy"></i>
+          </div>
+          <div class="mb-2">
+            <span class="category-chip text-[10px] tracking-wider uppercase text-slate-400">${out.category}</span>
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-2 leading-tight group-hover:text-indigo-600 transition-colors">${out.text}</h3>
+          <p class="text-slate-500 text-sm mb-4 leading-relaxed">&nbsp;</p>
+          <div class="flex items-center justify-between">
+            <div class="text-xs text-slate-400 italic">${out.category}</div>
+          </div>
+        `;
+        // Clicking the card copies the content as well (convenience), separate from the copy button
+        card.addEventListener("click", async () => {
+          const title = card.querySelector("h3")?.textContent || "";
+          const desc = card.querySelector("p")?.textContent || "";
+          try {
+            await navigator.clipboard.writeText(`${title}\n\n${desc}`);
+            showToast("Disalin!", "Tersimpan di clipboard.");
+          } catch (err) {
+            showToast("Gagal menyalin", "Silakan salin secara manual");
+          }
+        });
         grid.appendChild(card);
       });
       document.querySelectorAll(".copy-btn").forEach((copyBtn) => {
-        copyBtn.addEventListener("click", () => {
+        copyBtn.addEventListener("click", async (e) => {
+          e.stopPropagation();
           const card = copyBtn.closest(".relative");
           const title = card.querySelector("h3")?.textContent || "";
           const desc = card.querySelector("p")?.textContent || "";
-          navigator.clipboard.writeText(`${title}\n\n${desc}`);
-          toast.style.transform = "translateX(0)";
-          setTimeout(() => {
-            toast.style.transform = "translateX(120%)";
-          }, 2000);
+          const text = `${title}\n\n${desc}`;
+          try {
+            await navigator.clipboard.writeText(text);
+            showToast("Disalin!", "Tersimpan di clipboard.");
+          } catch (err) {
+            // fallback
+            const ta = document.createElement("textarea");
+            ta.value = text;
+            ta.style.position = "fixed";
+            ta.style.left = "-9999px";
+            document.body.appendChild(ta);
+            ta.select();
+            try {
+              document.execCommand("copy");
+              showToast("Disalin!", "Tersimpan di clipboard.");
+            } catch (err2) {
+              showToast("Gagal menyalin", "Silakan salin secara manual");
+            }
+            ta.remove();
+          }
           copyBtn.classList.add("copied");
           setTimeout(() => copyBtn.classList.remove("copied"), 1400);
         });
@@ -199,7 +237,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const resultsContainer = document.getElementById("resultsContainer");
       const resultCountText = document.getElementById("resultCountText");
       if (resultsContainer && resultCountText) {
-        resultCountText.textContent = `Ditemukan ${outputs.length} ide untuk "${keyword}"`;
+        const modeLabel = usedMode.type === "ai" ? "AI" : "Template";
+        resultCountText.textContent = `Ditemukan ${outputs.length} ide untuk "${keyword}" — mode: ${modeLabel}`;
         resultsContainer.classList.remove("hidden");
         resultsContainer.scrollIntoView({ behavior: "smooth", block: "start" });
       }
