@@ -22,9 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const subEl = toast.querySelector(".text-xs");
     if (titleEl) titleEl.textContent = title;
     if (subEl) subEl.textContent = subtitle;
-    // Use Tailwind classes so transitions work consistently
     toast.classList.remove("opacity-0", "translate-x-full", "pointer-events-none");
-    // Restore hidden state after a timeout
+    toast.classList.add("opacity-0", "translate-x-full");
+    toast.classList.add("pointer-events-none");
     setTimeout(() => {
       toast.classList.add("opacity-0", "translate-x-full");
       toast.classList.add("pointer-events-none");
@@ -77,8 +77,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-
-  // geometric ornaments removed — no sizing needed here
 
   const cards = document.querySelectorAll("#home > div.absolute");
   const textContainer = document.querySelector("#home .container");
@@ -146,27 +144,79 @@ document.addEventListener("DOMContentLoaded", () => {
       grid.appendChild(skeleton);
     }
     setTimeout(async () => {
-      // AI generation removed — templates-only generation
       let outputs = [];
       const usedMode = { type: "templates" };
 
-      // Templates fallback (single source of truth now)
       if (!outputs || outputs.length === 0) {
-        // Templates fallback (secondary algorithm)
         let filteredTemplates = templates;
+        const rawKeyword = input.value || "";
+        const normKeyword = rawKeyword
+          .toLowerCase()
+          .replace(/[.,/#!$%^&*;:{}=\-_`~()?"']/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
+
         if (selectedTone !== "all") {
           filteredTemplates = templates.filter((t) => t.tone === selectedTone);
         }
-        const numToSelect = Math.floor(Math.random() * 6) + 10;
-        const selected = [];
-        const shuffled = [...filteredTemplates].sort(() => 0.5 - Math.random());
-        for (let i = 0; i < Math.min(numToSelect, shuffled.length); i++) {
-          selected.push(shuffled[i]);
+
+        const normalize = (str) =>
+          (str || "")
+            .toLowerCase()
+            .replace(/[.,/#!$%^&*;:{}=\-_`~()?"']/g, " ")
+            .replace(/\s+/g, " ")
+            .trim();
+
+        const tokenMatchScore = (text, tokens) => {
+          let score = 0;
+          tokens.forEach((tok) => {
+            if (!tok) return;
+            if (text.includes(` ${tok} `) || text.startsWith(`${tok} `) || text.endsWith(` ${tok}`)) score += 15;
+            else if (text.includes(tok)) score += 6;
+          });
+          return score;
+        };
+
+        const tokens = normKeyword
+          .split(" ")
+          .map((s) => s.trim())
+          .filter(Boolean);
+        const scored = filteredTemplates.map((t) => {
+          const txt = normalize(t.template);
+          const cat = normalize(t.category);
+          let score = 0;
+          if (normKeyword && txt.includes(normKeyword)) score += 60;
+          if (normKeyword && cat.includes(normKeyword)) score += 80;
+          score += tokenMatchScore(txt, tokens) + tokenMatchScore(cat, tokens) * 1.5;
+          score += Math.random() * 6;
+          return { t, score };
+        });
+
+        let candidates = scored
+          .filter((s) => s.score > 0)
+          .sort((a, b) => b.score - a.score)
+          .map((s) => s.t);
+
+        if (candidates.length === 0) {
+          const numToSelect = Math.floor(Math.random() * 6) + 10;
+          const shuffled = [...filteredTemplates].sort(() => 0.5 - Math.random());
+          candidates = shuffled.slice(0, Math.min(numToSelect, shuffled.length));
         }
-        outputs = selected.map((t) => ({
-          text: t.template.replace("{keyword}", keyword),
-          category: t.category,
-        }));
+
+        const seenTexts = new Set();
+        const unique = [];
+        for (const tpl of candidates) {
+          const normalizedTpl = tpl.template.trim();
+          if (!seenTexts.has(normalizedTpl)) {
+            seenTexts.add(normalizedTpl);
+            unique.push(tpl);
+          }
+        }
+
+        const numToReturn = Math.min(15, unique.length);
+        const selected = unique.slice(0, numToReturn);
+
+        outputs = selected.map((t) => ({ text: t.template.replace("{keyword}", keyword), category: t.category }));
         usedMode.type = "templates";
       }
       grid.innerHTML = "";
@@ -186,7 +236,6 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="text-xs text-slate-400 italic">${out.category}</div>
           </div>
         `;
-        // Clicking the card copies the content as well (convenience), separate from the copy button
         card.addEventListener("click", async () => {
           const title = card.querySelector("h3")?.textContent || "";
           const desc = card.querySelector("p")?.textContent || "";
@@ -210,7 +259,6 @@ document.addEventListener("DOMContentLoaded", () => {
             await navigator.clipboard.writeText(text);
             showToast("Disalin!", "Tersimpan di clipboard.");
           } catch (err) {
-            // fallback
             const ta = document.createElement("textarea");
             ta.value = text;
             ta.style.position = "fixed";
@@ -233,7 +281,6 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.querySelector("span").textContent = "Hasilkan";
       btn.disabled = false;
       if (loader && loader.parentNode === btn) btn.removeChild(loader);
-      // show results container
       const resultsContainer = document.getElementById("resultsContainer");
       const resultCountText = document.getElementById("resultCountText");
       if (resultsContainer && resultCountText) {
