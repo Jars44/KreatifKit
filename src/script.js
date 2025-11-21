@@ -65,13 +65,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileMenu = document.getElementById("mobileMenu");
   if (navToggle && mobileMenu) {
     navToggle.addEventListener("click", () => {
-      const isHidden = mobileMenu.classList.contains("hidden");
-      if (isHidden) {
+      const isVisible = mobileMenu.classList.contains("show");
+      // show menu (remove hidden & add show for animation)
+      if (!isVisible) {
         mobileMenu.classList.remove("hidden");
+        // Force a frame then add show for transition
+        requestAnimationFrame(() => mobileMenu.classList.add("show"));
         navToggle.innerHTML = '<i class="fas fa-times text-xl"></i>';
         navToggle.setAttribute("aria-expanded", "true");
       } else {
-        mobileMenu.classList.add("hidden");
+        // hide with animation then add hidden after transition
+        mobileMenu.classList.remove("show");
+        setTimeout(() => mobileMenu.classList.add("hidden"), 260);
         navToggle.innerHTML = '<i class="fas fa-bars text-xl"></i>';
         navToggle.setAttribute("aria-expanded", "false");
       }
@@ -223,12 +228,12 @@ document.addEventListener("DOMContentLoaded", () => {
       outputs.forEach((out) => {
         const card = document.createElement("div");
         card.className = "idea-card glass-card p-6 rounded-2xl relative group cursor-pointer z-20";
+        const categoryKey = (out.category || "").toString().toLowerCase().replace(/\s+/g, "-");
+        const chipClass = `chip-${categoryKey || "default"}`;
         card.innerHTML = `
-          <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity text-slate-400">
-            <i class="fas fa-copy"></i>
-          </div>
+          <button class="card-copy" aria-label="Salin ide" title="Salin ide"><i class="fas fa-copy cursor-pointer"></i></button>
           <div class="mb-2">
-            <span class="category-chip text-[10px] tracking-wider uppercase text-slate-400">${out.category}</span>
+            <span class="category-chip ${chipClass} text-[10px] tracking-wider uppercase">${out.category}</span>
           </div>
           <h3 class="text-xl font-bold text-slate-800 mb-2 leading-tight group-hover:text-indigo-600 transition-colors">${out.text}</h3>
           <p class="text-slate-500 text-sm mb-4 leading-relaxed">&nbsp;</p>
@@ -246,6 +251,23 @@ document.addEventListener("DOMContentLoaded", () => {
             showToast("Gagal menyalin", "Silakan salin secara manual");
           }
         });
+
+        const copyBtn = card.querySelector(".card-copy");
+        if (copyBtn) {
+          copyBtn.addEventListener("click", async (e) => {
+            e.stopPropagation();
+            const title = card.querySelector("h3")?.textContent || "";
+            const desc = card.querySelector("p")?.textContent || "";
+            try {
+              await navigator.clipboard.writeText(`${title}\n\n${desc}`);
+              showToast("Disalin!", "Tersimpan di clipboard.");
+              copyBtn.classList.add("copied");
+              setTimeout(() => copyBtn.classList.remove("copied"), 1200);
+            } catch (err) {
+              showToast("Gagal menyalin", "Silakan salin secara manual");
+            }
+          });
+        }
         grid.appendChild(card);
       });
       document.querySelectorAll(".copy-btn").forEach((copyBtn) => {

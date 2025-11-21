@@ -3,6 +3,12 @@
 :root {
   --primary-purple: #8b5cf6;
   --primary-teal: #06b6d4;
+  --bg-1: #0f172a; /* deep navy — used for subtle glows */
+  --muted: #64748b;
+  --accent: #06b6d4;
+  --glass-border: rgba(255, 255, 255, 0.65);
+  --card-border: rgba(226, 232, 240, 0.85);
+  --shadow-strong: 0 30px 60px rgba(2, 6, 23, 0.18);
 }
 
 @layer base {
@@ -20,66 +26,6 @@
 }
 
 @layer components {
-  .ornament {
-    position: absolute;
-    pointer-events: none;
-    z-index: -1;
-    opacity: 0.3;
-  }
-
-  .shape-circle {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: rgba(59, 130, 246, 0.2);
-    left: 5%;
-    top: 10%;
-  }
-
-  .shape-square {
-    width: 50px;
-    height: 50px;
-    background: rgba(14, 165, 233, 0.2);
-    right: 5%;
-    top: 15%;
-    transform: rotate(15deg);
-  }
-
-  .shape-triangle {
-    width: 0;
-    height: 0;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-bottom: 52px solid rgba(37, 99, 235, 0.2);
-    left: 10%;
-    bottom: 10%;
-  }
-
-  .shape-hexagon {
-    width: 55px;
-    height: 48px;
-    background: rgba(99, 102, 241, 0.2);
-    clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%);
-    right: 10%;
-    bottom: 15%;
-    transform: rotate(-10deg);
-  }
-
-  .shape-star {
-    width: 50px;
-    height: 50px;
-    background: rgba(30, 58, 138, 0.2);
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-    left: 45%;
-    top: 75%;
-    transform: rotate(25deg);
-  }
-
-  @media (max-width: 640px) {
-    .ornament {
-      display: none;
-    }
-  }
   @keyframes shake {
     0%,
     100% {
@@ -107,14 +53,17 @@
   }
 
   .card-hover:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(0, 212, 255, 0.3);
+    transform: translateY(-7px) rotate(-0.3deg);
+    box-shadow: var(--shadow-strong);
   }
 
   .idea-card {
-    background: rgba(255, 255, 255, 0.98);
-    border: 1px solid #e6eef7;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.98));
+    border: 1px solid var(--card-border);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1.25rem;
   }
   .idea-card:hover {
     transform: translateY(-6px);
@@ -122,9 +71,31 @@
   }
 
   .copy-btn {
-    background: linear-gradient(90deg, #38bdf8, #3b82f6);
+    background: linear-gradient(90deg, #06b6d4, #6366f1);
     border: none;
     box-shadow: 0 8px 20px rgba(59, 130, 246, 0.12);
+  }
+
+  /* category colored chips */
+  .category-chip.chip-funny {
+    background: linear-gradient(90deg, #ffedd5, #ffb4a2);
+    color: #9a3412;
+  }
+  .category-chip.chip-formal {
+    background: linear-gradient(90deg, #eef2ff, #dbeafe);
+    color: #3730a3;
+  }
+  .category-chip.chip-casual {
+    background: linear-gradient(90deg, #ecfdf5, #bbf7d0);
+    color: #065f46;
+  }
+  .category-chip.chip-inspirational {
+    background: linear-gradient(90deg, #fff7ed, #ffe4b5);
+    color: #92400e;
+  }
+  .category-chip.chip-default {
+    background: linear-gradient(90deg, #eef2ff, #f0f9ff);
+    color: #334155;
   }
 
   .button-hover {
@@ -181,6 +152,28 @@
     background: rgba(255, 255, 255, 0.5);
     transform: translate(-50%, -50%);
     transition: width 0.6s, height 0.6s;
+  }
+
+  /* copy icon inside cards */
+  .card-copy {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    padding: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+  }
+  .card-copy:hover {
+    transform: translateY(-3px);
+    background: white;
+    color: #0f172a;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
   }
 
   /* Tone button styles similar to sample */
@@ -260,7 +253,7 @@
   .blob {
     position: absolute;
     filter: blur(80px);
-    z-index: 0;
+    z-index: -1;
     opacity: 0.5;
     animation: float 10s infinite ease-in-out;
   }
@@ -339,13 +332,30 @@
     padding: 0.35rem 0.9rem;
     border-radius: 9999px;
     font-weight: 600;
-    box-shadow: 0 6px 24px rgba(2, 6, 23, 0.06);
+    box-shadow: 0 10px 35px rgba(2, 6, 23, 0.06), 0 0 50px rgba(99, 102, 241, 0.06);
   }
 
   .hero-headline {
     letter-spacing: -0.02em;
     line-height: 0.95;
     margin-top: 0.125rem;
+  }
+
+  .hero-headline .accent-underline {
+    position: relative;
+    display: inline-block;
+  }
+  .hero-headline .accent-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.27em;
+    width: 100%;
+    height: 0.32em;
+    background: linear-gradient(90deg, rgba(139, 92, 246, 0.28), rgba(99, 102, 241, 0.16));
+    border-radius: 6px;
+    transform: translateY(2px);
+    pointer-events: none;
   }
 
   .hero-headline .bg-clip-text {
@@ -380,6 +390,24 @@
 
   .icon-rotate:hover {
     transform: rotate(360deg);
+  }
+
+  /* subtle CTA pulse */
+  @keyframes pulseSoft {
+    0% {
+      transform: translateY(0) scale(1);
+      box-shadow: 0 12px 30px rgba(99, 102, 241, 0.06);
+    }
+    50% {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 22px 50px rgba(99, 102, 241, 0.09);
+    }
+    100% {
+      transform: translateY(0) scale(1);
+    }
+  }
+  .cta-pulse:hover {
+    animation: pulseSoft 1.2s ease-in-out both;
   }
 
   .features-section .bg-white\/60 {
@@ -452,6 +480,22 @@
     border-color: #6366f1;
     box-shadow: 0 0 0 6px rgba(99, 102, 241, 0.08);
     outline: none;
+  }
+
+  /* improved mobile menu slide */
+  .mobile-nav {
+    transform-origin: top center;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+  }
+  .mobile-nav.hidden {
+    transform: scaleY(0);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .mobile-nav.show {
+    transform: scaleY(1);
+    opacity: 1;
+    pointer-events: auto;
   }
 
   footer {
