@@ -1,379 +1,379 @@
 [
   {
     "id": 1,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "funny",
     "template": "Tahukah Anda bahwa {keyword} dapat mengubah hidup Anda dengan cara yang tak terbayangkan? Inilah alasannya sedang meledak saat ini!"
   },
   {
     "id": 2,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "formal",
     "template": "Kebenaran mengejutkan tentang {keyword} yang tidak ada yang membicarakannya – Anda tidak akan percaya apa yang terjadi!"
   },
   {
     "id": 3,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "casual",
     "template": "Apa yang terjadi ketika {keyword} bertemu inovasi? Tren viral ini sedang menguasai internet!"
   },
   {
     "id": 4,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "inspirational",
     "template": "Hentikan segalanya! {keyword} baru saja menjadi 10x lebih baik, dan inilah bukti yang sedang viral."
   },
   {
     "id": 5,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "funny",
     "template": "Buka rahasia {keyword}: Panduan lengkap untuk memahami dan menguasai topik penting ini."
   },
   {
     "id": 6,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "formal",
     "template": "Dari dasar hingga lanjutan: Semua yang perlu Anda ketahui tentang {keyword} dijelaskan langkah demi langkah."
   },
   {
     "id": 7,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "casual",
     "template": "Ilmu di balik {keyword}: Fakta, mitos, dan wawasan ahli yang tidak boleh Anda lewatkan."
   },
   {
     "id": 8,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "inspirational",
     "template": "Kuasi {keyword} dalam 5 menit: Konsep kunci, tips, dan sumber daya untuk pemula dan ahli."
   },
   {
     "id": 9,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "funny",
     "template": "Temukan bagaimana {keyword} dapat meningkatkan rutinitas harian Anda – lembut, efektif, dan sempurna untuk Anda."
   },
   {
     "id": 10,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "formal",
     "template": "Bayangkan dunia di mana {keyword} membuat segalanya lebih mudah. Mulai perjalanan Anda hari ini dengan peningkatan halus ini."
   },
   {
     "id": 11,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "casual",
     "template": "Mengapa {keyword} adalah game-changer tenang yang Anda tunggu – tidak ada hype, hanya manfaat nyata."
   },
   {
     "id": 12,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "inspirational",
     "template": "Tingkatkan pengalaman Anda dengan {keyword}: Sentuhan halus yang membuat perbedaan besar dalam hidup Anda."
   },
   {
     "id": 13,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "funny",
     "template": "Pada suatu waktu, {keyword} mengubah ide sederhana menjadi petualangan epik. Inilah cerita di baliknya."
   },
   {
     "id": 14,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "formal",
     "template": "Cerita tak terungkap tentang {keyword}: Dari awal yang sederhana hingga menjadi legenda sendiri."
   },
   {
     "id": 15,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "casual",
     "template": "Perjalanan melalui dunia {keyword}: Kisah inovasi, tantangan, dan kesuksesan yang menakjubkan."
   },
   {
     "id": 16,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "inspirational",
     "template": "Di balik layar: Narasi inspiratif tentang bagaimana {keyword} menawan hati dan mengubah pikiran selamanya."
   },
   {
     "id": 17,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "funny",
     "template": "Tahukah Anda bahwa {keyword} bisa mengubah hidup Anda dengan cara yang tak terbayangkan? Ini alasannya sedang viral sekarang!"
   },
   {
     "id": 18,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "funny",
     "template": "Apa yang terjadi jika {keyword} bertemu inovasi? Tren viral ini sedang menguasai internet!"
   },
   {
     "id": 19,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "funny",
     "template": "Bayangkan {keyword} dalam versi lucu – ini sedang meledak di media sosial!"
   },
   {
     "id": 20,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "formal",
     "template": "Kebenaran mengejutkan tentang {keyword} yang tidak dibicarakan siapa pun – Anda tidak akan percaya apa yang terjadi!"
   },
   {
     "id": 21,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "formal",
     "template": "Dampak luar biasa {keyword} terhadap masyarakat modern: Analisis mendalam."
   },
   {
     "id": 22,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "formal",
     "template": "Mengapa {keyword} menjadi fenomena global? Penjelasan formal dan obyektif."
   },
   {
     "id": 23,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "casual",
     "template": "Apa yang terjadi kalau {keyword} ketemu inovasi? Tren viral ini lagi nge-hits banget!"
   },
   {
     "id": 24,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "casual",
     "template": "Lo tau ga kalau {keyword} bisa bikin hidup lo lebih keren? Ini lagi booming nih!"
   },
   {
     "id": 25,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "casual",
     "template": "Tren {keyword} yang lagi viral – gue kasih tau alasannya simpel aja."
   },
   {
     "id": 26,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "inspirational",
     "template": "Hentikan segalanya! {keyword} baru saja menjadi 10x lebih baik, dan ini bukti yang menginspirasi yang sedang viral."
   },
   {
     "id": 27,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "inspirational",
     "template": "Temukan kekuatan {keyword}: Kisah inspirasi yang mengubah hidup jutaan orang."
   },
   {
     "id": 28,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "inspirational",
     "template": "Dari nol menjadi hero: Perjalanan inspiratif {keyword} yang mengubah dunia."
   },
   {
     "id": 29,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "funny",
     "template": "Buka rahasia {keyword}: Panduan lengkap untuk memahami dan menguasai topik penting ini dengan cara yang menyenangkan."
   },
   {
     "id": 30,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "funny",
     "template": "Dari nol sampai ahli {keyword} dalam 5 menit – tips lucu dan efektif!"
   },
   {
     "id": 31,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "funny",
     "template": "Mitos dan fakta tentang {keyword}: Jangan sampai tertipu, baca ini sambil ketawa!"
   },
   {
     "id": 32,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "formal",
     "template": "Dari dasar hingga lanjutan: Semua yang perlu Anda ketahui tentang {keyword} dijelaskan langkah demi langkah."
   },
   {
     "id": 33,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "formal",
     "template": "Analisis komprehensif {keyword}: Teori, praktik, dan aplikasi dalam kehidupan sehari-hari."
   },
   {
     "id": 34,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "formal",
     "template": "Panduan akademis untuk memahami {keyword}: Konsep kunci dan metodologi penelitian."
   },
   {
     "id": 35,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "casual",
     "template": "Ilmu di balik {keyword}: Fakta, mitos, dan wawasan ahli yang gak boleh dilewatkan."
   },
   {
     "id": 36,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "casual",
     "template": "Cara jitu belajar {keyword}: Dari pemula sampai pro, gue kasih tau step by step."
   },
   {
     "id": 37,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "casual",
     "template": "Apa sih {keyword} itu? Penjelasan simpel tapi lengkap buat kamu yang penasaran."
   },
   {
     "id": 38,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "inspirational",
     "template": "Kuasi {keyword} dalam 5 menit: Konsep kunci, tips, dan sumber daya untuk pemula dan ahli."
   },
   {
     "id": 39,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "inspirational",
     "template": "Temukan potensi Anda melalui {keyword}: Perjalanan pembelajaran yang menginspirasi."
   },
   {
     "id": 40,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "inspirational",
     "template": "Dari pengetahuan datang kekuatan: Inspirasi untuk menguasai {keyword}."
   },
   {
     "id": 41,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "funny",
     "template": "Temukan bagaimana {keyword} bisa meningkatkan rutinitas harian kamu – lembut, efektif, dan pas banget buat kamu."
   },
   {
     "id": 42,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "funny",
     "template": "Kenapa {keyword} adalah game-changer yang diam-diam? Baca ini sambil senyum!"
   },
   {
     "id": 43,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "funny",
     "template": "Coba {keyword} tanpa ribet: Manfaatnya bikin kamu ketawa karena ternyata gampang banget."
   },
   {
     "id": 44,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "formal",
     "template": "Bayangkan dunia di mana {keyword} membuat segalanya lebih mudah. Mulai perjalatan Anda hari ini dengan peningkatan halus ini."
   },
   {
     "id": 45,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "formal",
     "template": "Integrasi {keyword} ke dalam kehidupan Anda: Pendekatan profesional dan efektif."
   },
   {
     "id": 46,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "formal",
     "template": "Manfaat strategis {keyword}: Peningkatan kualitas hidup tanpa gangguan."
   },
   {
     "id": 47,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "casual",
     "template": "Kenapa {keyword} adalah game-changer yang tenang yang kamu tunggu? Gak ada hype, cuma manfaat nyata."
   },
   {
     "id": 48,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "casual",
     "template": "Coba deh {keyword}: Bikin hidup kamu lebih smooth tanpa ribet."
   },
   {
     "id": 49,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "casual",
     "template": "Rekomendasi simpel: {keyword} yang bikin perbedaan tapi gak ngeganggu."
   },
   {
     "id": 50,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "inspirational",
     "template": "Tingkatkan pengalaman Anda dengan {keyword}: Sentuhan halus yang membuat perbedaan besar dalam hidup Anda."
   },
   {
     "id": 51,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "inspirational",
     "template": "Temukan kedamaian melalui {keyword}: Inspirasi untuk hidup yang lebih baik."
   },
   {
     "id": 52,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "inspirational",
     "template": "Elevasi diri dengan {keyword}: Perjalanan menuju kehidupan yang lebih bermakna."
   },
   {
     "id": 53,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "funny",
     "template": "Pada suatu waktu, {keyword} mengubah ide sederhana menjadi petualangan epik. Ini ceritanya yang kocak."
   },
   {
     "id": 54,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "funny",
     "template": "Kisah lucu di balik {keyword}: Dari gagal jadi sukses besar!"
   },
   {
     "id": 55,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "funny",
     "template": "Petualangan {keyword} yang penuh tawa: Jangan sampai ketinggalan ceritanya."
   },
   {
     "id": 56,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "formal",
     "template": "Cerita tak terungkap tentang {keyword}: Dari awal sederhana hingga menjadi legenda."
   },
   {
     "id": 57,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "formal",
     "template": "Narasi historis {keyword}: Perjalanan dari inovasi hingga penerimaan global."
   },
   {
     "id": 58,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "formal",
     "template": "Analisis kronologis: Bagaimana {keyword} berevolusi menjadi fenomena budaya."
   },
   {
     "id": 59,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "casual",
     "template": "Perjalanan melalui dunia {keyword}: Cerita inovasi, tantangan, dan kesuksesan yang mengagumkan."
   },
   {
     "id": 60,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "casual",
     "template": "Kisah {keyword} yang gue tau: Dari ide kecil jadi besar banget."
   },
   {
     "id": 61,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "casual",
     "template": "Cek cerita di balik {keyword}: Penuh twist dan inspirasi."
   },
   {
     "id": 62,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "inspirational",
     "template": "Di balik layar: Narasi inspiratif tentang bagaimana {keyword} menawan hati dan mengubah pikiran selamanya."
   },
   {
     "id": 63,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "inspirational",
     "template": "Kisah perjuangan {keyword}: Dari mimpi menjadi kenyataan yang menginspirasi."
   },
@@ -385,218 +385,2618 @@
   },
   {
     "id": 65,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "funny",
     "template": "Wah, {keyword} lagi nge-trend banget! Ini rahasianya yang bikin orang ketawa-ketawa."
   },
   {
     "id": 66,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "funny",
     "template": "Bayangin kalau {keyword} bisa bikin hidup lo lebih seru – viralnya sampe bikin orang gila!"
   },
   {
     "id": 67,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "funny",
     "template": "Tahu ga kalau {keyword} punya sisi lucu yang jarang orang sadari? Ini lagi meledak nih!"
   },
   {
     "id": 68,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "formal",
     "template": "Fenomena {keyword} yang sedang viral: Analisis mendalam tentang dampaknya terhadap masyarakat."
   },
   {
     "id": 69,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "formal",
     "template": "Kebenaran tersembunyi {keyword} yang sedang menjadi perbincangan global."
   },
   {
     "id": 70,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "casual",
     "template": "Eh, {keyword} lagi hits banget ya? Gue kasih tau kenapa sih."
   },
   {
     "id": 71,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "casual",
     "template": "Tren {keyword} yang lagi rame – simpel aja penjelasannya."
   },
   {
     "id": 72,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "inspirational",
     "template": "Temukan inspirasi dari {keyword}: Kisah viral yang mengubah perspektif hidup."
   },
   {
     "id": 73,
-    "category": "Hook Viral",
+    "category": "Viral Hook",
     "tone": "inspirational",
     "template": "Dari biasa jadi luar biasa: Perjalanan inspiratif {keyword} yang sedang viral."
   },
   {
     "id": 74,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "funny",
     "template": "Belajar {keyword} sambil ketawa: Tips lucu yang bikin paham cepet!"
   },
   {
     "id": 75,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "funny",
     "template": "Rahasia {keyword} yang kocak: Jangan sampe ketawa sendiri pas baca ini."
   },
   {
     "id": 76,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "formal",
     "template": "Pendidikan komprehensif tentang {keyword}: Dari teori hingga praktik."
   },
   {
     "id": 77,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "formal",
     "template": "Panduan formal untuk menguasai {keyword} dalam konteks modern."
   },
   {
     "id": 78,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "formal",
     "template": "Studi mendalam {keyword}: Aspek teoritis dan aplikasinya dalam dunia nyata."
   },
   {
     "id": 79,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "casual",
     "template": "Cara mudah belajar {keyword}: Gue jelasin step by step tanpa ribet."
   },
   {
     "id": 80,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "casual",
     "template": "Apa aja yang perlu tau tentang {keyword}? Simpel banget kok."
   },
   {
     "id": 81,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "inspirational",
     "template": "Inspirasi belajar {keyword}: Temukan potensi diri Anda melalui pengetahuan."
   },
   {
     "id": 82,
-    "category": "Pendidikan",
+    "category": "Education",
     "tone": "inspirational",
     "template": "Perjalanan pembelajaran {keyword} yang menginspirasi dan memotivasi."
   },
   {
     "id": 83,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "funny",
     "template": "Coba {keyword} dengan cara yang fun: Manfaatnya bikin kamu tersenyum terus."
   },
   {
     "id": 84,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "funny",
     "template": "Kenapa {keyword} cocok banget buat kamu? Jawabannya bikin ketawa!"
   },
   {
     "id": 85,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "formal",
     "template": "Integrasi {keyword} ke dalam rutinitas Anda: Pendekatan profesional untuk peningkatan kualitas hidup."
   },
   {
     "id": 86,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "formal",
     "template": "Manfaat strategis {keyword}: Peningkatan efisiensi tanpa kompromi."
   },
   {
     "id": 87,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "casual",
     "template": "Coba deh {keyword}: Bikin hidup lebih enak tanpa ribet."
   },
   {
     "id": 88,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "casual",
     "template": "Rekomendasi simpel buat {keyword}: Pas banget buat kamu yang sibuk."
   },
   {
     "id": 89,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "casual",
     "template": "Gunain {keyword} aja: Mudah, praktis, dan bikin perbedaan."
   },
   {
     "id": 90,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "inspirational",
     "template": "Tingkatkan diri dengan {keyword}: Inspirasi untuk hidup yang lebih baik dan bermakna."
   },
   {
     "id": 91,
-    "category": "Jualan Halus",
+    "category": "Soft Selling",
     "tone": "inspirational",
     "template": "Temukan kedamaian dan kebahagiaan melalui {keyword}: Perjalanan halus menuju kesuksesan."
   },
   {
     "id": 92,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "funny",
     "template": "Kisah kocak di balik {keyword}: Dari gagal total jadi sukses besar!"
   },
   {
     "id": 93,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "funny",
     "template": "Petualangan {keyword} yang penuh tawa: Cerita yang bikin hari kamu lebih ceria."
   },
   {
     "id": 94,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "formal",
     "template": "Narasi historis {keyword}: Perjalanan evolusi dari konsep hingga fenomena."
   },
   {
     "id": 95,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "formal",
     "template": "Analisis kronologis perkembangan {keyword}: Dari inovasi hingga adopsi massal."
   },
   {
     "id": 96,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "casual",
     "template": "Cerita {keyword} yang gue tau: Dari kecil jadi besar, penuh inspirasi."
   },
   {
     "id": 97,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "casual",
     "template": "Kisah di balik {keyword}: Simpel tapi mengagumkan banget."
   },
   {
     "id": 98,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "inspirational",
     "template": "Narasi inspiratif {keyword}: Bagaimana satu ide mengubah dunia dan hidup banyak orang."
   },
   {
     "id": 99,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "inspirational",
     "template": "Kisah perjuangan dan kemenangan {keyword}: Inspirasi untuk mengejar mimpi."
   },
   {
     "id": 100,
-    "category": "Penceritaan",
+    "category": "Storytelling",
     "tone": "inspirational",
     "template": "Perjalanan epik {keyword}: Dari visi menjadi realitas yang menginspirasi generasi."
+  },
+  {
+    "id": 101,
+    "category": "Productivity",
+    "tone": "casual",
+    "template": "5 langkah sederhana untuk gunakan {keyword} supaya hari kamu lebih produktif tanpa stres."
+  },
+  {
+    "id": 102,
+    "category": "Productivity",
+    "tone": "formal",
+    "template": "Strategi terbukti menggunakan {keyword} untuk meningkatkan efisiensi kerja dan hasil yang konsisten."
+  },
+  {
+    "id": 103,
+    "category": "Productivity",
+    "tone": "funny",
+    "template": "Gak usah panik! {keyword} bisa bikin tugasmu kelar sambil ngopi santai."
+  },
+  {
+    "id": 104,
+    "category": "Productivity",
+    "tone": "inspirational",
+    "template": "Mulai hari ini: Transformasi kecil dengan {keyword} yang membawa hasil besar dalam produktivitas."
+  },
+  {
+    "id": 105,
+    "category": "Productivity",
+    "tone": "curious",
+    "template": "Pernah bertanya-tanya bagaimana {keyword} membantu orang sukses mengatur waktunya? Inilah jawabannya."
+  },
+  {
+    "id": 106,
+    "category": "Lifestyle",
+    "tone": "casual",
+    "template": "Cara pakai {keyword} untuk membuat hari-harimu lebih nyaman dan berkesan."
+  },
+  {
+    "id": 107,
+    "category": "Lifestyle",
+    "tone": "funny",
+    "template": "Rahasia hidup santuy: {keyword} yang bikin tetanggamu iri nggak jelas."
+  },
+  {
+    "id": 108,
+    "category": "Lifestyle",
+    "tone": "formal",
+    "template": "Mengintegrasikan {keyword} dalam gaya hidup modern: Panduan elegan dan praktis."
+  },
+  {
+    "id": 109,
+    "category": "Lifestyle",
+    "tone": "inspirational",
+    "template": "Ubah kebiasaan kecil dengan {keyword} dan rasakan perubahan besar dalam kualitas hidup."
+  },
+  {
+    "id": 110,
+    "category": "Lifestyle",
+    "tone": "empathetic",
+    "template": "Kamu nggak sendiri: Bagaimana {keyword} bisa membantu melewati hari-hari berat dengan lebih ringan."
+  },
+  {
+    "id": 111,
+    "category": "Marketing",
+    "tone": "formal",
+    "template": "Optimalkan kampanye Anda: Cara pakai {keyword} untuk mendorong awareness dan konversi."
+  },
+  {
+    "id": 112,
+    "category": "Marketing",
+    "tone": "casual",
+    "template": "Rahasia marketer: Pakai {keyword} buat bikin audiens nolak bosan dan mulai suka."
+  },
+  {
+    "id": 113,
+    "category": "Marketing",
+    "tone": "funny",
+    "template": "Biar produkmu nggak tenggelam, coba tabur {keyword} sedikit — hasilnya bisa bikin senyum sendiri."
+  },
+  {
+    "id": 114,
+    "category": "Marketing",
+    "tone": "inspirational",
+    "template": "Kisah kampanye sukses: Bagaimana {keyword} mengubah pelanggan biasa jadi fans setia."
+  },
+  {
+    "id": 115,
+    "category": "Marketing",
+    "tone": "urgent",
+    "template": "Segera lakukan: Kesempatan terbatas pakai {keyword} untuk lonjakan engagement sekarang juga."
+  },
+  {
+    "id": 116,
+    "category": "How-To",
+    "tone": "educational",
+    "template": "Langkah demi langkah: Cara menggunakan {keyword} dari nol hingga mahir."
+  },
+  {
+    "id": 117,
+    "category": "How-To",
+    "tone": "casual",
+    "template": "Tutorial simpel: Gunakan {keyword} dengan trik ini supaya lebih cepat dan mudah."
+  },
+  {
+    "id": 118,
+    "category": "How-To",
+    "tone": "formal",
+    "template": "Instruksi profesional: Panduan sistematis untuk memaksimalkan penggunaan {keyword}."
+  },
+  {
+    "id": 119,
+    "category": "How-To",
+    "tone": "curious",
+    "template": "Trik yang jarang diketahui: Bagaimana {keyword} bisa bekerja lebih baik dengan penyesuaian kecil ini."
+  },
+  {
+    "id": 120,
+    "category": "How-To",
+    "tone": "funny",
+    "template": "Gampang banget! Cara pakai {keyword} tanpa bingung dan tanpa drama."
+  },
+  {
+    "id": 121,
+    "category": "Case Study",
+    "tone": "formal",
+    "template": "Studi kasus: Implementasi {keyword} yang terbukti meningkatkan hasil bisnis secara signifikan."
+  },
+  {
+    "id": 122,
+    "category": "Case Study",
+    "tone": "inspirational",
+    "template": "Dari kegagalan jadi sukses: Cerita nyata tentang penggunaan {keyword} yang menginspirasi."
+  },
+  {
+    "id": 123,
+    "category": "Case Study",
+    "tone": "casual",
+    "template": "Contoh nyata: Bagaimana tim kecil menggunakan {keyword} untuk mengalahkan pesaing besar."
+  },
+  {
+    "id": 124,
+    "category": "Case Study",
+    "tone": "curious",
+    "template": "Apa yang terjadi ketika {keyword} diterapkan secara tidak konvensional? Hasilnya mengejutkan."
+  },
+  {
+    "id": 125,
+    "category": "Case Study",
+    "tone": "empathetic",
+    "template": "Kisah perubahan: Bagaimana {keyword} membantu tim melewati masa sulit dengan kepala tegak."
+  },
+  {
+    "id": 126,
+    "category": "Behind The Scenes",
+    "tone": "casual",
+    "template": "Di balik layar: Bagaimana kami menguji {keyword} sampai benar-benar siap dipakai."
+  },
+  {
+    "id": 127,
+    "category": "Behind The Scenes",
+    "tone": "funny",
+    "template": "Ssst… rahasia tim: Cerita lucu saat eksperimen {keyword} yang akhirnya berhasil."
+  },
+  {
+    "id": 128,
+    "category": "Behind The Scenes",
+    "tone": "formal",
+    "template": "Proses produksi: Langkah-langkah profesional dalam mengembangkan fitur {keyword}."
+  },
+  {
+    "id": 129,
+    "category": "Behind The Scenes",
+    "tone": "inspirational",
+    "template": "Dari ide ke realisasi: Perjalanan tim menciptakan {keyword} yang memberi dampak."
+  },
+  {
+    "id": 130,
+    "category": "Behind The Scenes",
+    "tone": "empathetic",
+    "template": "Kenapa kami percaya pada {keyword}: Alasan manusiawi di balik keputusan teknis kami."
+  },
+  {
+    "id": 131,
+    "category": "Q&A",
+    "tone": "curious",
+    "template": "Tanya jawab: Pertanyaan paling sering tentang {keyword} dan jawabannya dalam bahasa sederhana."
+  },
+  {
+    "id": 132,
+    "category": "Q&A",
+    "tone": "educational",
+    "template": "FAQ: Jelaskan fungsi {keyword} dan bagaimana memaksimalkannya untuk kebutuhan Anda."
+  },
+  {
+    "id": 133,
+    "category": "Q&A",
+    "tone": "casual",
+    "template": "Mau tanya? Kita bahas {keyword} secara santai dan tanpa istilah ribet."
+  },
+  {
+    "id": 134,
+    "category": "Q&A",
+    "tone": "formal",
+    "template": "Jawaban resmi: Pandangan ahli tentang penggunaan {keyword} dalam skenario profesional."
+  },
+  {
+    "id": 135,
+    "category": "Q&A",
+    "tone": "empathetic",
+    "template": "Kami mendengar Anda: Jawaban hangat untuk kekhawatiran umum tentang {keyword}."
+  },
+  {
+    "id": 136,
+    "category": "Listicle",
+    "tone": "casual",
+    "template": "7 hal tentang {keyword} yang harus Anda ketahui hari ini."
+  },
+  {
+    "id": 137,
+    "category": "Listicle",
+    "tone": "funny",
+    "template": "10 alasan lucu kenapa {keyword} bisa jadi sahabat terbaikmu saat butuh ide."
+  },
+  {
+    "id": 138,
+    "category": "Listicle",
+    "tone": "formal",
+    "template": "Daftar prioritas: 5 poin utama untuk mengevaluasi manfaat {keyword}."
+  },
+  {
+    "id": 139,
+    "category": "Listicle",
+    "tone": "inspirational",
+    "template": "8 alasan mengapa {keyword} dapat mengubah cara Anda memandang peluang."
+  },
+  {
+    "id": 140,
+    "category": "Listicle",
+    "tone": "curious",
+    "template": "Topik yang jarang dibahas: 6 hal mengejutkan tentang {keyword}."
+  },
+  {
+    "id": 141,
+    "category": "Tips",
+    "tone": "casual",
+    "template": "Tips cepat pakai {keyword}: Hemat waktu dan hasil tetap maksimal."
+  },
+  {
+    "id": 142,
+    "category": "Tips",
+    "tone": "formal",
+    "template": "Kiat ahli: Cara profesional memanfaatkan {keyword} untuk hasil jangka panjang."
+  },
+  {
+    "id": 143,
+    "category": "Tips",
+    "tone": "funny",
+    "template": "Tips gokil buat {keyword}: Biar tool ini malah kerja buat kamu."
+  },
+  {
+    "id": 144,
+    "category": "Tips",
+    "tone": "inspirational",
+    "template": "Kiat sederhana yang menginspirasi: Bagaimana {keyword} bantu kamu tumbuh tiap hari."
+  },
+  {
+    "id": 145,
+    "category": "Tips",
+    "tone": "empathetic",
+    "template": "Tips hangat untuk pemula: Pakai {keyword} tanpa merasa kewalahan."
+  },
+  {
+    "id": 146,
+    "category": "Personal Story",
+    "tone": "inspirational",
+    "template": "Cerita pribadi: Bagaimana {keyword} membantu saya mengatasi rintangan dan mencapai tujuan."
+  },
+  {
+    "id": 147,
+    "category": "Personal Story",
+    "tone": "casual",
+    "template": "Jujur aja: Waktu pertama pakai {keyword} saya kaget karena hasilnya langsung terasa."
+  },
+  {
+    "id": 148,
+    "category": "Personal Story",
+    "tone": "funny",
+    "template": "Kisah konyol: Salah satu momen lucu ketika {keyword} menyelamatkan situasi."
+  },
+  {
+    "id": 149,
+    "category": "Personal Story",
+    "tone": "empathetic",
+    "template": "Aku dan {keyword}: Cerita tentang perjuangan kecil yang berbuah pelajaran besar."
+  },
+  {
+    "id": 150,
+    "category": "Personal Story",
+    "tone": "formal",
+    "template": "Refleksi profesional: Pengalaman penggunaan {keyword} dalam proyek yang berdampak."
+  },
+  {
+    "id": 151,
+    "category": "Productivity",
+    "tone": "educational",
+    "template": "Metode yang efektif: Kombinasi {keyword} dan kebiasaan micro-tasking untuk hasil maksimal."
+  },
+  {
+    "id": 152,
+    "category": "Lifestyle",
+    "tone": "curious",
+    "template": "Bagaimana kalau {keyword} jadi bagian dari rutinitas pagi Anda? Coba tips ini."
+  },
+  {
+    "id": 153,
+    "category": "Marketing",
+    "tone": "casual",
+    "template": "Trik sederhana: Gunakan {keyword} untuk membuat kampanye yang lebih personal dan menarik."
+  },
+  {
+    "id": 154,
+    "category": "How-To",
+    "tone": "educational",
+    "template": "Cara mengukur dampak {keyword} secara terukur: KPI dan metrik yang harus diperhatikan."
+  },
+  {
+    "id": 155,
+    "category": "Case Study",
+    "tone": "curious",
+    "template": "Eksperimen: Efek {keyword} pada pemasaran digital dalam 30 hari — hasil yang mengejutkan."
+  },
+  {
+    "id": 156,
+    "category": "Behind The Scenes",
+    "tone": "curious",
+    "template": "Nah loh: Proses keputusan kenapa kami memilih {keyword} sebagai solusi inti."
+  },
+  {
+    "id": 157,
+    "category": "Q&A",
+    "tone": "funny",
+    "template": "Pertanyaan sarkastik: Kalau {keyword} jadi superhero, kekuatannya apa? Yuk ngobrol."
+  },
+  {
+    "id": 158,
+    "category": "Listicle",
+    "tone": "casual",
+    "template": "5 alat tambahan yang bekerja sempurna bersama {keyword}."
+  },
+  {
+    "id": 159,
+    "category": "Tips",
+    "tone": "curious",
+    "template": "Apa yang tidak banyak orang tahu tentang {keyword}? Tips eksperimen kecil untuk mencoba."
+  },
+  {
+    "id": 160,
+    "category": "Personal Story",
+    "tone": "inspirational",
+    "template": "Perubahan kecil, dampak besar: Bagaimana {keyword} mengubah cara saya bekerja."
+  },
+  {
+    "id": 161,
+    "category": "Productivity",
+    "tone": "urgent",
+    "template": "Jangan tunda lagi: Terapkan {keyword} sekarang untuk menghindari kebiasaan buruk yang menunda hasilmu."
+  },
+  {
+    "id": 162,
+    "category": "Lifestyle",
+    "tone": "empathetic",
+    "template": "Untuk yang lelah: Bagaimana {keyword} membantu Anda menemukan sedikit ketenangan sehari-hari."
+  },
+  {
+    "id": 163,
+    "category": "Marketing",
+    "tone": "formal",
+    "template": "Pendekatan strategis: Integrasi {keyword} ke dalam funnel pemasaran multi-kanal."
+  },
+  {
+    "id": 164,
+    "category": "How-To",
+    "tone": "curious",
+    "template": "Eksperimen kreatif: Cara memodifikasi {keyword} untuk hasil yang berbeda."
+  },
+  {
+    "id": 165,
+    "category": "Case Study",
+    "tone": "formal",
+    "template": "Evaluasi kuantitatif: Dampak {keyword} terhadap metrik pertumbuhan dalam studi lapangan."
+  },
+  {
+    "id": 166,
+    "category": "Behind The Scenes",
+    "tone": "casual",
+    "template": "Keputusan teknis yang menarik saat mengembangkan {keyword} — cuplikan prosesnya."
+  },
+  {
+    "id": 167,
+    "category": "Q&A",
+    "tone": "empathetic",
+    "template": "Jawaban untuk pemula: Cara mengatasi kesalahan umum saat pakai {keyword}."
+  },
+  {
+    "id": 168,
+    "category": "Listicle",
+    "tone": "funny",
+    "template": "6 hal lucu yang mungkin terjadi saat pertama kali mencoba {keyword}."
+  },
+  {
+    "id": 169,
+    "category": "Tips",
+    "tone": "formal",
+    "template": "Tips profesional: Praktik terbaik memaksimalkan hasil dengan {keyword}."
+  },
+  {
+    "id": 170,
+    "category": "Personal Story",
+    "tone": "casual",
+    "template": "Suatu hari saya mencoba {keyword} dan terkejut dengan hasilnya — ini kronologinya."
+  },
+  {
+    "id": 171,
+    "category": "Productivity",
+    "tone": "funny",
+    "template": "Transformasi 10 menit: Gunakan {keyword} sebelum ngopi dan lihat perbedaannya."
+  },
+  {
+    "id": 172,
+    "category": "Lifestyle",
+    "tone": "inspirational",
+    "template": "Mulai ritual baru: Tambahkan {keyword} ke rutinitasmu untuk meningkatkan kualitas hidup."
+  },
+  {
+    "id": 173,
+    "category": "Marketing",
+    "tone": "curious",
+    "template": "Apa yang terjadi jika {keyword} ditargetkan pada audiens niche? Ini hasil percobaannya."
+  },
+  {
+    "id": 174,
+    "category": "How-To",
+    "tone": "funny",
+    "template": "Cara yang nggak ribet pakai {keyword}, bahkan kakek-nenek juga bisa."
+  },
+  {
+    "id": 175,
+    "category": "Case Study",
+    "tone": "casual",
+    "template": "Dari nol ke hero: Kisah startup yang memanfaatkan {keyword} untuk tumbuh cepat."
+  },
+  {
+    "id": 176,
+    "category": "Behind The Scenes",
+    "tone": "inspirational",
+    "template": "Perjalanan tim: Bagaimana kita terus bereksperimen dan belajar dari {keyword}."
+  },
+  {
+    "id": 177,
+    "category": "Q&A",
+    "tone": "curious",
+    "template": "Pertanyaan penting: Kapan sebaiknya tidak menggunakan {keyword}? Kita bahas alasannya."
+  },
+  {
+    "id": 178,
+    "category": "Listicle",
+    "tone": "formal",
+    "template": "6 indikator kunci saat menilai efektivitas {keyword} dalam strategi Anda."
+  },
+  {
+    "id": 179,
+    "category": "Tips",
+    "tone": "casual",
+    "template": "Saran praktis: Kombinasikan {keyword} dengan kebiasaan 2 menit untuk hasil maksimal."
+  },
+  {
+    "id": 180,
+    "category": "Personal Story",
+    "tone": "funny",
+    "template": "Gara-gara {keyword}, saya jadi kebiasaan aneh yang malah produktif — ceritanya lucu banget."
+  },
+  {
+    "id": 181,
+    "category": "Productivity",
+    "tone": "formal",
+    "template": "Kerangka kerja sederhana: Menggabungkan {keyword} dengan metodologi kerja untuk hasil terukur."
+  },
+  {
+    "id": 182,
+    "category": "Lifestyle",
+    "tone": "curious",
+    "template": "Eksperimen gaya hidup: Coba {keyword} selama 30 hari dan catat perubahannya."
+  },
+  {
+    "id": 183,
+    "category": "Marketing",
+    "tone": "inspirational",
+    "template": "Kisah brand: Bagaimana satu ide {keyword} membantu membentuk identitas pasar."
+  },
+  {
+    "id": 184,
+    "category": "How-To",
+    "tone": "empathetic",
+    "template": "Langkah sabar: Panduan ramah untuk pemula yang ingin mencoba {keyword}."
+  },
+  {
+    "id": 185,
+    "category": "Case Study",
+    "tone": "funny",
+    "template": "Kisah unik: Kalau percobaan {keyword} gagal, inilah cara tim bangkit lagi."
+  },
+  {
+    "id": 186,
+    "category": "Behind The Scenes",
+    "tone": "formal",
+    "template": "Metodologi R&D: Langkah ilmiah di balik pengembangan {keyword}."
+  },
+  {
+    "id": 187,
+    "category": "Q&A",
+    "tone": "casual",
+    "template": "Langsung tanya: Apa yang paling bikin penasaran soal {keyword}? Kita jawab singkat."
+  },
+  {
+    "id": 188,
+    "category": "Listicle",
+    "tone": "curious",
+    "template": "8 sumber inspirasi untuk ide berbasis {keyword} yang bisa kamu tiru."
+  },
+  {
+    "id": 189,
+    "category": "Tips",
+    "tone": "empathetic",
+    "template": "Tips ramah pemula: Gunakan {keyword} dengan langkah kecil agar percaya diri bertambah."
+  },
+  {
+    "id": 190,
+    "category": "Personal Story",
+    "tone": "formal",
+    "template": "Refleksi profesional: Pelajaran penting dari penggunaan {keyword} dalam proyek jangka panjang."
+  },
+  {
+    "id": 191,
+    "category": "Productivity",
+    "tone": "curious",
+    "template": "Percobaan 30 hari: Bagaimana {keyword} memengaruhi fokus dan hasil kerja."
+  },
+  {
+    "id": 192,
+    "category": "Lifestyle",
+    "tone": "funny",
+    "template": "Coba ritual pagi pakai {keyword} supaya gaya hidupmu jadi lebih 'mewah' tanpa mahal."
+  },
+  {
+    "id": 193,
+    "category": "Marketing",
+    "tone": "urgent",
+    "template": "Jangan lewatkan kesempatan: Manfaatkan {keyword} dalam kampanye musiman sebelum kompetitor melakukannya."
+  },
+  {
+    "id": 194,
+    "category": "How-To",
+    "tone": "inspirational",
+    "template": "Permudah hidupmu: Cara kreatif menggunakan {keyword} untuk menyelesaikan masalah sehari-hari."
+  },
+  {
+    "id": 195,
+    "category": "Case Study",
+    "tone": "curious",
+    "template": "Analisa hasil: Perbandingan performa sebelum dan sesudah menerapkan {keyword}."
+  },
+  {
+    "id": 196,
+    "category": "Behind The Scenes",
+    "tone": "funny",
+    "template": "Momen konyol saat uji coba {keyword} yang malah jadi viral di kantor."
+  },
+  {
+    "id": 197,
+    "category": "Q&A",
+    "tone": "formal",
+    "template": "Sesi tanya jawab ahli: Tips penggunaan {keyword} untuk manajer produk dan tim teknis."
+  },
+  {
+    "id": 198,
+    "category": "Listicle",
+    "tone": "inspirational",
+    "template": "10 ide kreatif menggunakan {keyword} yang menginspirasi pembuatan konten baru."
+  },
+  {
+    "id": 199,
+    "category": "Tips",
+    "tone": "casual",
+    "template": "Saran singkat: Langkah harian mudah untuk memaksimalkan efek {keyword}."
+  },
+  {
+    "id": 200,
+    "category": "Personal Story",
+    "tone": "empathetic",
+    "template": "Perjalanan emosional: Kisah nyata bagaimana {keyword} membantu memulihkan semangat kerja."
+  },
+  {
+    "id": 201,
+    "category": "Announcement",
+    "tone": "urgent",
+    "template": "Pengumuman penting: Kami sekarang menggunakan {keyword} untuk meningkatkan layanan kami."
+  },
+  {
+    "id": 202,
+    "category": "Announcement",
+    "tone": "formal",
+    "template": "Pemberitahuan resmi: Peluncuran fitur baru berbasis {keyword} akan dimulai minggu depan."
+  },
+  {
+    "id": 203,
+    "category": "Interview",
+    "tone": "casual",
+    "template": "Wawancara singkat: Apa yang membuat {keyword} begitu penting menurut Anda?"
+  },
+  {
+    "id": 204,
+    "category": "Interview",
+    "tone": "formal",
+    "template": "Pertanyaan ahli: Bagaimana {keyword} memengaruhi strategi jangka panjang perusahaan?"
+  },
+  {
+    "id": 205,
+    "category": "Checklist",
+    "tone": "educational",
+    "template": "Checklist cepat: Hal-hal yang perlu diperiksa sebelum menerapkan {keyword}."
+  },
+  {
+    "id": 206,
+    "category": "Checklist",
+    "tone": "casual",
+    "template": "Checklist santai: 5 langkah simpel cek kesiapan kamu pakai {keyword}."
+  },
+  {
+    "id": 207,
+    "category": "Comparison",
+    "tone": "formal",
+    "template": "Perbandingan {keyword} vs alternatif: Kelebihan dan kekurangan untuk dipertimbangkan."
+  },
+  {
+    "id": 208,
+    "category": "Comparison",
+    "tone": "casual",
+    "template": "Mana yang lebih oke? {keyword} atau yang lain — tim kami jelasin dengan bahasa sehari-hari."
+  },
+  {
+    "id": 209,
+    "category": "Memes",
+    "tone": "funny",
+    "template": "Meme-ready: Ketika {keyword} datang dan semua orang ngakak — cocok untuk feedmu."
+  },
+  {
+    "id": 210,
+    "category": "Memes",
+    "tone": "funny",
+    "template": "Template meme: Reaksi ‘ketika {keyword}’ yang pasti relate sama netizen."
+  },
+  {
+    "id": 211,
+    "category": "Research",
+    "tone": "formal",
+    "template": "Hasil penelitian terbaru: Dampak {keyword} terhadap perilaku konsumen—temuan kunci."
+  },
+  {
+    "id": 212,
+    "category": "Research",
+    "tone": "educational",
+    "template": "Ringkasan studi: Temuan menarik tentang {keyword} yang perlu Anda tahu."
+  },
+  {
+    "id": 213,
+    "category": "Personal Growth",
+    "tone": "inspirational",
+    "template": "Langkah kecil, perubahan besar: Gunakan {keyword} untuk mengembangkan diri setiap hari."
+  },
+  {
+    "id": 214,
+    "category": "Personal Growth",
+    "tone": "empathetic",
+    "template": "Jangan khawatir tentang proses: {keyword} bisa jadi teman ketika kamu butuh dorongan."
+  },
+  {
+    "id": 215,
+    "category": "Event",
+    "tone": "urgent",
+    "template": "Ayo bergabung! Workshop tentang {keyword} — tempat terbatas, daftar sekarang."
+  },
+  {
+    "id": 216,
+    "category": "Event",
+    "tone": "casual",
+    "template": "Acara santai: Ngobrol bareng soal {keyword} sambil menikmati kopi dan networking."
+  },
+  {
+    "id": 217,
+    "category": "Holiday",
+    "tone": "funny",
+    "template": "Selamat liburan! Tips pakai {keyword} supaya momen liburan makin seru."
+  },
+  {
+    "id": 218,
+    "category": "Holiday",
+    "tone": "inspirational",
+    "template": "Rayakan kebersamaan: Ide kreatif pakai {keyword} untuk momen spesialmu."
+  },
+  {
+    "id": 219,
+    "category": "Collaboration",
+    "tone": "casual",
+    "template": "Kolaborasi keren: Bagaimana kita bisa gabungkan {keyword} dengan ide kamu?"
+  },
+  {
+    "id": 220,
+    "category": "Collaboration",
+    "tone": "formal",
+    "template": "Proposal kolaborasi: Memanfaatkan {keyword} untuk mencapai tujuan bersama secara profesional."
+  },
+  {
+    "id": 221,
+    "category": "Sustainability",
+    "tone": "formal",
+    "template": "Solusi ramah lingkungan: Menggunakan {keyword} untuk praktik bisnis yang lebih berkelanjutan."
+  },
+  {
+    "id": 222,
+    "category": "Sustainability",
+    "tone": "inspirational",
+    "template": "Langkah hijau: Bagaimana {keyword} mendukung gaya hidup lebih ramah bumi."
+  },
+  {
+    "id": 223,
+    "category": "Health",
+    "tone": "educational",
+    "template": "Panduan sehat: Cara aman memanfaatkan {keyword} untuk kesehatan mental dan fisik."
+  },
+  {
+    "id": 224,
+    "category": "Health",
+    "tone": "empathetic",
+    "template": "Untuk yang butuh dukungan: Bagaimana {keyword} bisa membantu proses pemulihan."
+  },
+  {
+    "id": 225,
+    "category": "Finance",
+    "tone": "formal",
+    "template": "Perencanaan keuangan: Memahami bagaimana {keyword} dapat memengaruhi keputusan ekonomi Anda."
+  },
+  {
+    "id": 226,
+    "category": "Finance",
+    "tone": "curious",
+    "template": "Berapa biaya peluang jika tidak menggunakan {keyword}? Simulasi singkat untuk pertimbangan."
+  },
+  {
+    "id": 227,
+    "category": "Design",
+    "tone": "casual",
+    "template": "Tips desain: Integrasi {keyword} agar tampilan produkmu lebih menarik pengguna."
+  },
+  {
+    "id": 228,
+    "category": "Design",
+    "tone": "formal",
+    "template": "Prinsip desain: Menyelaraskan {keyword} dengan estetika brand dan UX yang konsisten."
+  },
+  {
+    "id": 229,
+    "category": "UX",
+    "tone": "educational",
+    "template": "Pengalaman pengguna: Cara {keyword} meningkatkan alur interaksi pengguna secara nyata."
+  },
+  {
+    "id": 230,
+    "category": "UX",
+    "tone": "casual",
+    "template": "Feedback cepat: Hal kecil pada {keyword} yang bikin UX jadi lebih ramah pengguna."
+  },
+  {
+    "id": 231,
+    "category": "Tech News",
+    "tone": "formal",
+    "template": "Berita teknologi: Pembaruan terbaru terkait {keyword} dan implikasinya untuk industri."
+  },
+  {
+    "id": 232,
+    "category": "Tech News",
+    "tone": "casual",
+    "template": "Breaking: Fitur baru {keyword} yang harus kamu tahu hari ini."
+  },
+  {
+    "id": 233,
+    "category": "Motivation",
+    "tone": "inspirational",
+    "template": "Motivasi harian: Jadikan {keyword} sebagai pengingat kecil untuk tetap produktif dan fokus."
+  },
+  {
+    "id": 234,
+    "category": "Motivation",
+    "tone": "empathetic",
+    "template": "Saat semangat turun, ingatlah bagaimana {keyword} membantu langkah kecilmu berarti."
+  },
+  {
+    "id": 235,
+    "category": "Product Update",
+    "tone": "formal",
+    "template": "Pembaruan fitur: Versi terbaru {keyword} menghadirkan perbaikan dan peningkatan performa."
+  },
+  {
+    "id": 236,
+    "category": "Product Update",
+    "tone": "casual",
+    "template": "Hal baru di {keyword}! Simak fitur seru yang baru saja kami rilis."
+  },
+  {
+    "id": 237,
+    "category": "Brand Story",
+    "tone": "inspirational",
+    "template": "Asal mula brand: Kenapa kami memilih {keyword} sebagai inti nilai kami."
+  },
+  {
+    "id": 238,
+    "category": "Brand Story",
+    "tone": "formal",
+    "template": "Sejarah singkat: Perjalanan brand dan kontribusi {keyword} terhadap misi kami."
+  },
+  {
+    "id": 239,
+    "category": "Behind The Brand",
+    "tone": "casual",
+    "template": "Momen di balik brand: Cerita lucu saat mencoba ide pertama {keyword}."
+  },
+  {
+    "id": 240,
+    "category": "Behind The Brand",
+    "tone": "empathetic",
+    "template": "Kenangan tim: Bagaimana {keyword} membuat pekerjaan kami lebih bermakna."
+  },
+  {
+    "id": 241,
+    "category": "User Testimonial",
+    "tone": "casual",
+    "template": "Pengalaman nyata: 'Setelah pakai {keyword}, pekerjaan saya jadi lebih mudah.'"
+  },
+  {
+    "id": 242,
+    "category": "User Testimonial",
+    "tone": "inspirational",
+    "template": "Cerita pelanggan: Dari ragu jadi percaya, {keyword} memberi hasil nyata."
+  },
+  {
+    "id": 243,
+    "category": "SEO",
+    "tone": "formal",
+    "template": "Optimasi konten: Teknik pakai {keyword} untuk meningkatkan visibilitas pencarian."
+  },
+  {
+    "id": 244,
+    "category": "SEO",
+    "tone": "casual",
+    "template": "Rahasia SEO: Bagaimana {keyword} bisa bantu kontenmu nangkring di hasil pencarian."
+  },
+  {
+    "id": 245,
+    "category": "Script",
+    "tone": "funny",
+    "template": "Naskah pendek: Dialog kocak antara dua orang yang membahas {keyword}."
+  },
+  {
+    "id": 246,
+    "category": "Script",
+    "tone": "casual",
+    "template": "Skenario singkat: Cara menyampaikan manfaat {keyword} dalam 30 detik."
+  },
+  {
+    "id": 247,
+    "category": "Workshop",
+    "tone": "educational",
+    "template": "Latihan praktek: Aktivitas workshop singkat untuk mengasah penggunaan {keyword}."
+  },
+  {
+    "id": 248,
+    "category": "Workshop",
+    "tone": "inspirational",
+    "template": "Sesi berdaya: Temukan potensi tim Anda dengan modul berbasis {keyword}."
+  },
+  {
+    "id": 249,
+    "category": "Announcement",
+    "tone": "formal",
+    "template": "Pengumuman: Dukungan {keyword} kini tersedia untuk semua pengguna kami."
+  },
+  {
+    "id": 250,
+    "category": "Interview",
+    "tone": "empathetic",
+    "template": "Profil pengguna: Cerita nyata tentang bagaimana {keyword} membantu kehidupan sehari-hari."
+  },
+  {
+    "id": 251,
+    "category": "Checklist",
+    "tone": "curious",
+    "template": "Hal-hal yang sering terlewat: Cek list untuk memastikan {keyword} digunakan maksimal."
+  },
+  {
+    "id": 252,
+    "category": "Comparison",
+    "tone": "educational",
+    "template": "Perbandingan fitur: Evaluasi fitur kunci antara {keyword} dan solusi populer lain."
+  },
+  {
+    "id": 253,
+    "category": "Memes",
+    "tone": "funny",
+    "template": "Tag temanmu yang bakal relate sama {keyword} — meme ini pasti viral."
+  },
+  {
+    "id": 254,
+    "category": "Research",
+    "tone": "curious",
+    "template": "Kajian ringkas: Opini pakar tentang tren {keyword} yang muncul tahun ini."
+  },
+  {
+    "id": 255,
+    "category": "Personal Growth",
+    "tone": "casual",
+    "template": "Tiga kebiasaan yang bisa dikombinasikan dengan {keyword} untuk perkembangan pribadi."
+  },
+  {
+    "id": 256,
+    "category": "Event",
+    "tone": "formal",
+    "template": "Undangan resmi: Seminar tentang penerapan {keyword} untuk profesional industri."
+  },
+  {
+    "id": 257,
+    "category": "Holiday",
+    "tone": "empathetic",
+    "template": "Kirim ucapan hangat: Ide pesan liburan yang bisa dipersonalisasi dengan {keyword}."
+  },
+  {
+    "id": 258,
+    "category": "Collaboration",
+    "tone": "inspirational",
+    "template": "Berkolaborasi untuk dampak: Kisah sukses implementasi {keyword} antara dua tim berbeda."
+  },
+  {
+    "id": 259,
+    "category": "Sustainability",
+    "tone": "casual",
+    "template": "Praktik sederhana: Tips menggunakan {keyword} sambil tetap ramah lingkungan."
+  },
+  {
+    "id": 260,
+    "category": "Health",
+    "tone": "casual",
+    "template": "Rutinitas sehat: Masukkan {keyword} ke kebiasaan harian untuk dukung kebugaran."
+  },
+  {
+    "id": 261,
+    "category": "Finance",
+    "tone": "funny",
+    "template": "Dompet bahagia: Tips hemat saat menggunakan {keyword} dalam bisnis kecil."
+  },
+  {
+    "id": 262,
+    "category": "Design",
+    "tone": "funny",
+    "template": "Design fails: Hal konyol yang terjadi saat desain dan {keyword} nggak sinkron."
+  },
+  {
+    "id": 263,
+    "category": "UX",
+    "tone": "inspirational",
+    "template": "Desain berempati: Menggunakan {keyword} untuk menciptakan pengalaman yang manusiawi."
+  },
+  {
+    "id": 264,
+    "category": "Tech News",
+    "tone": "curious",
+    "template": "Update teknologi: Tren {keyword} yang perlu diwaspadai oleh developer."
+  },
+  {
+    "id": 265,
+    "category": "Motivation",
+    "tone": "casual",
+    "template": "Kata motivasi: Sedikit {keyword} setiap hari untuk mulai bergerak lebih cepat."
+  },
+  {
+    "id": 266,
+    "category": "Product Update",
+    "tone": "empathetic",
+    "template": "Kami mendengar feedback: Perubahan {keyword} ini dibuat karena permintaan pengguna."
+  },
+  {
+    "id": 267,
+    "category": "Brand Story",
+    "tone": "casual",
+    "template": "Kenalan yuk: Bagaimana {keyword} jadi salah satu alasan brand ini berdiri."
+  },
+  {
+    "id": 268,
+    "category": "Behind The Brand",
+    "tone": "funny",
+    "template": "Cerita lucu tim: Momen seru saat ide {keyword} pertama kali dicetuskan."
+  },
+  {
+    "id": 269,
+    "category": "User Testimonial",
+    "tone": "formal",
+    "template": "Testimonial resmi: Feedback pengguna tentang efisiensi {keyword} dalam konteks profesional."
+  },
+  {
+    "id": 270,
+    "category": "SEO",
+    "tone": "curious",
+    "template": "Tips SEO: Kata kunci dan struktur konten yang sesuai untuk topik {keyword}."
+  },
+  {
+    "id": 271,
+    "category": "Script",
+    "tone": "formal",
+    "template": "Naskah presentasi: Poin-poin utama yang harus disampaikan tentang {keyword}."
+  },
+  {
+    "id": 272,
+    "category": "Workshop",
+    "tone": "urgent",
+    "template": "Daftar sekarang: Workshop intensif membahas {keyword}—kursi terbatas."
+  },
+  {
+    "id": 273,
+    "category": "Announcement",
+    "tone": "casual",
+    "template": "Yuk cek fitur baru! {keyword} sekarang lebih mudah dipakai untuk semua pengguna."
+  },
+  {
+    "id": 274,
+    "category": "Research",
+    "tone": "formal",
+    "template": "Laporan singkat: Rekomendasi kebijakan terkait {keyword} berdasarkan data terbaru."
+  },
+  {
+    "id": 275,
+    "category": "Personal Growth",
+    "tone": "formal",
+    "template": "Rencana pengembangan: Cara menjadikan {keyword} bagian dari strategi pertumbuhan diri."
+  },
+  {
+    "id": 276,
+    "category": "Event",
+    "tone": "inspirational",
+    "template": "Acara spesial: Cerita inspiratif panel tentang penggunaan {keyword} di lapangan."
+  },
+  {
+    "id": 277,
+    "category": "Holiday",
+    "tone": "casual",
+    "template": "Selamat! Ideas liburan berbasis {keyword} untuk quality time yang berbeda."
+  },
+  {
+    "id": 278,
+    "category": "Collaboration",
+    "tone": "curious",
+    "template": "Gimana kalau gabung? Ide kolaborasi {keyword} yang bisa dibuat bareng partner lokal."
+  },
+  {
+    "id": 279,
+    "category": "Sustainability",
+    "tone": "casual",
+    "template": "Tips harian: Pilih opsi {keyword} yang mendukung keberlanjutan lingkungan."
+  },
+  {
+    "id": 280,
+    "category": "Health",
+    "tone": "urgent",
+    "template": "Penting: Penanganan cepat bila {keyword} memengaruhi kesehatan — panduan singkat."
+  },
+  {
+    "id": 281,
+    "category": "Finance",
+    "tone": "educational",
+    "template": "Analisis biaya: Berapa ROI jika menerapkan {keyword} dalam bisnis skala kecil?"
+  },
+  {
+    "id": 282,
+    "category": "Design",
+    "tone": "empathetic",
+    "template": "Design for all: Memanfaatkan {keyword} supaya desainmu lebih inklusif."
+  },
+  {
+    "id": 283,
+    "category": "UX",
+    "tone": "formal",
+    "template": "Kriteria evaluasi: Parameter UX terkait implementasi {keyword}."
+  },
+  {
+    "id": 284,
+    "category": "Tech News",
+    "tone": "inspirational",
+    "template": "Inovasi terkini: Bagaimana {keyword} mengubah permainan teknologi di industri Anda."
+  },
+  {
+    "id": 285,
+    "category": "Motivation",
+    "tone": "formal",
+    "template": "Pernyataan misi: Jadikan {keyword} sebagai pendorong perubahan dan tujuan pribadi."
+  },
+  {
+    "id": 286,
+    "category": "Product Update",
+    "tone": "curious",
+    "template": "Apa yang baru? Eksplorasi fitur terbaru {keyword} dan bagaimana memanfaatkannya."
+  },
+  {
+    "id": 287,
+    "category": "Brand Story",
+    "tone": "curious",
+    "template": "Dari ide kecil jadi besar: Cerita menarik di balik pemilihan {keyword} sebagai fokus."
+  },
+  {
+    "id": 288,
+    "category": "Behind The Brand",
+    "tone": "casual",
+    "template": "Sesi ngobrol bareng founder: Kenapa {keyword} jadi inti produk kami."
+  },
+  {
+    "id": 289,
+    "category": "User Testimonial",
+    "tone": "empathetic",
+    "template": "Kata pengguna: 'Dengan {keyword}, saya merasa lebih percaya diri dalam bekerja.'"
+  },
+  {
+    "id": 290,
+    "category": "SEO",
+    "tone": "formal",
+    "template": "Strategi SEO: Kombinasikan topik {keyword} dengan struktur konten yang tepat."
+  },
+  {
+    "id": 291,
+    "category": "Script",
+    "tone": "casual",
+    "template": "Skrip singkat: 3 kalimat pembuka yang menonjolkan {keyword}."
+  },
+  {
+    "id": 292,
+    "category": "Workshop",
+    "tone": "formal",
+    "template": "Agenda workshop: Aktivitas hands-on menggunakan {keyword} untuk tim multidisciplinary."
+  },
+  {
+    "id": 293,
+    "category": "Announcement",
+    "tone": "inspirational",
+    "template": "Kami bangga mengumumkan dukungan {keyword} yang akan membantu pelanggan mencapai tujuan mereka."
+  },
+  {
+    "id": 294,
+    "category": "Research",
+    "tone": "educational",
+    "template": "Wawasan data: Pola pengguna {keyword} yang perlu dikembangkan untuk strategi ke depan."
+  },
+  {
+    "id": 295,
+    "category": "Personal Growth",
+    "tone": "curious",
+    "template": "Jelajahi potensi: Eksperimen harian sederhana pakai {keyword} untuk meningkatkan skill."
+  },
+  {
+    "id": 296,
+    "category": "Event",
+    "tone": "curious",
+    "template": "Apa yang bisa kamu pelajari di event tentang {keyword}? Ini topik pentingnya."
+  },
+  {
+    "id": 297,
+    "category": "Holiday",
+    "tone": "formal",
+    "template": "Rayakan momen spesial: Ide hadiah kreatif yang terinspirasi oleh {keyword}."
+  },
+  {
+    "id": 298,
+    "category": "Collaboration",
+    "tone": "funny",
+    "template": "Kolaborasi gokil: Ide unik buat kolab pakai {keyword} yang pasti viral."
+  },
+  {
+    "id": 299,
+    "category": "Sustainability",
+    "tone": "formal",
+    "template": "Inisiatif berkelanjutan: Implementasi {keyword} untuk mengurangi jejak karbon operasional."
+  },
+  {
+    "id": 300,
+    "category": "Health",
+    "tone": "inspirational",
+    "template": "Perubahan gaya hidup: Bagaimana {keyword} mendukung kebiasaan sehat jangka panjang."
+  },
+  {
+    "id": 301,
+    "category": "AI",
+    "tone": "curious",
+    "template": "Bagaimana {keyword} memengaruhi masa depan kerja? Temuan terbaru yang perlu kamu tahu."
+  },
+  {
+    "id": 302,
+    "category": "AI",
+    "tone": "formal",
+    "template": "Analisis teknis: Keunggulan {keyword} dan implikasinya dalam sistem otomatis."
+  },
+  {
+    "id": 303,
+    "category": "Startups",
+    "tone": "inspirational",
+    "template": "Strategi startup: Cara {keyword} membantu founder mempercepat iterasi produk."
+  },
+  {
+    "id": 304,
+    "category": "Startups",
+    "tone": "casual",
+    "template": "Biar startup mu jalan: 3 trik sederhana pakai {keyword} yang patut dicoba."
+  },
+  {
+    "id": 305,
+    "category": "Entrepreneurship",
+    "tone": "formal",
+    "template": "Model bisnis inovatif: Mengintegrasikan {keyword} untuk menciptakan nilai diferensial."
+  },
+  {
+    "id": 306,
+    "category": "Entrepreneurship",
+    "tone": "casual",
+    "template": "Jalan pintas buat founder: Cara milih {keyword} yang cocok buat bisnismu."
+  },
+  {
+    "id": 307,
+    "category": "Career",
+    "tone": "curious",
+    "template": "Skill yang dicari: Mengapa pengetahuan tentang {keyword} jadi nilai tambah di CV kamu."
+  },
+  {
+    "id": 308,
+    "category": "Career",
+    "tone": "inspirational",
+    "template": "Langkah karier: Gunakan {keyword} sebagai alat untuk naik level di pekerjaanmu."
+  },
+  {
+    "id": 309,
+    "category": "Legal",
+    "tone": "formal",
+    "template": "Pertimbangan hukum: Hal penting yang harus diperhatikan ketika menggunakan {keyword}."
+  },
+  {
+    "id": 310,
+    "category": "Legal",
+    "tone": "curious",
+    "template": "Apa batasan hukum untuk {keyword}? Wawasan singkat yang perlu diketahui."
+  },
+  {
+    "id": 311,
+    "category": "Parenting",
+    "tone": "empathetic",
+    "template": "Dukungan orang tua: Cara menggunakan {keyword} untuk aktivitas edukatif anak."
+  },
+  {
+    "id": 312,
+    "category": "Parenting",
+    "tone": "casual",
+    "template": "Tips simpel: Ide hiburan edukatif pakai {keyword} untuk weekend bersama anak."
+  },
+  {
+    "id": 313,
+    "category": "Recipes",
+    "tone": "funny",
+    "template": "Resep cepat: Kombinasi bahan ala {keyword} yang bikin makan malammu spesial."
+  },
+  {
+    "id": 314,
+    "category": "Recipes",
+    "tone": "formal",
+    "template": "Panduan resep: Langkah-langkah memasak yang terstruktur menggunakan ide {keyword}."
+  },
+  {
+    "id": 315,
+    "category": "Travel",
+    "tone": "inspirational",
+    "template": "Destinasi impian: Rekomendasi tempat berdasarkan tema {keyword}."
+  },
+  {
+    "id": 316,
+    "category": "Travel",
+    "tone": "casual",
+    "template": "Itinerary singkat: Cara mengeksplor tempat baru pakai {keyword} sebagai panduan."
+  },
+  {
+    "id": 317,
+    "category": "Photography",
+    "tone": "educational",
+    "template": "Tips foto: Teknik sederhana untuk menangkap momen {keyword} dengan kamera biasa."
+  },
+  {
+    "id": 318,
+    "category": "Photography",
+    "tone": "funny",
+    "template": "Behind the shot: Cerita lucu saat mencoba mengambil foto {keyword}."
+  },
+  {
+    "id": 319,
+    "category": "Gaming",
+    "tone": "casual",
+    "template": "Strategi ngegame: Cara memanfaatkan {keyword} untuk naik level lebih cepat."
+  },
+  {
+    "id": 320,
+    "category": "Gaming",
+    "tone": "funny",
+    "template": "Meme gamer: Reaksi saat {keyword} bikin gameplay jadi nggak terduga."
+  },
+  {
+    "id": 321,
+    "category": "Art",
+    "tone": "inspirational",
+    "template": "Proyek seni: Bagaimana {keyword} bisa jadi sumber inspirasi karya baru."
+  },
+  {
+    "id": 322,
+    "category": "Art",
+    "tone": "curious",
+    "template": "Eksperimen kreatif: Teknik menciptakan karya dengan sentuhan {keyword}."
+  },
+  {
+    "id": 323,
+    "category": "Music",
+    "tone": "casual",
+    "template": "Playlist ide: Lagu-lagu yang cocok diputar saat mengerjakan {keyword}."
+  },
+  {
+    "id": 324,
+    "category": "Music",
+    "tone": "formal",
+    "template": "Panduan produksi: Menggunakan {keyword} untuk memperkaya komposisi musik Anda."
+  },
+  {
+    "id": 325,
+    "category": "Advertising",
+    "tone": "urgent",
+    "template": "Kampanye cepat: Ide iklan singkat berbasis {keyword} untuk reaksi instan."
+  },
+  {
+    "id": 326,
+    "category": "Advertising",
+    "tone": "formal",
+    "template": "Strategi iklan: Bagaimana menempatkan {keyword} untuk meningkatkan CTR dan konversi."
+  },
+  {
+    "id": 327,
+    "category": "Analytics",
+    "tone": "educational",
+    "template": "Data-driven: Metode analitik untuk mengukur dampak penggunaan {keyword}."
+  },
+  {
+    "id": 328,
+    "category": "Analytics",
+    "tone": "curious",
+    "template": "Apa yang data katakan tentang {keyword}? Temuan yang mungkin mengejutkan."
+  },
+  {
+    "id": 329,
+    "category": "Community",
+    "tone": "empathetic",
+    "template": "Kegiatan komunitas: Ide sederhana pakai {keyword} untuk mempererat hubungan warga."
+  },
+  {
+    "id": 330,
+    "category": "Community",
+    "tone": "casual",
+    "template": "Ajak tetangga: Event kecil dengan tema {keyword} untuk kumpul-kumpul seru."
+  },
+  {
+    "id": 331,
+    "category": "Nonprofit",
+    "tone": "formal",
+    "template": "Program sosial: Cara memanfaatkan {keyword} untuk membangun dampak yang terukur."
+  },
+  {
+    "id": 332,
+    "category": "Nonprofit",
+    "tone": "empathetic",
+    "template": "Kisah donor: Bagaimana {keyword} membantu menghubungkan kebutuhan dan bantuan."
+  },
+  {
+    "id": 333,
+    "category": "Government",
+    "tone": "formal",
+    "template": "Kebijakan publik: Pertimbangan penggunaan {keyword} dalam program pemerintah."
+  },
+  {
+    "id": 334,
+    "category": "Government",
+    "tone": "urgent",
+    "template": "Pemberitahuan resmi: Dampak {keyword} pada layanan publik—apa yang berubah dan kapan."
+  },
+  {
+    "id": 335,
+    "category": "Policy",
+    "tone": "formal",
+    "template": "Rekomendasi kebijakan: Tata cara aman memakai {keyword} dalam sektor publik."
+  },
+  {
+    "id": 336,
+    "category": "Policy",
+    "tone": "curious",
+    "template": "Perdebatan hangat: Pro dan kontra penerapan {keyword} di masyarakat."
+  },
+  {
+    "id": 337,
+    "category": "Science",
+    "tone": "educational",
+    "template": "Penemuan baru: Riset tentang {keyword} yang membuka kemungkinan baru di bidang sains."
+  },
+  {
+    "id": 338,
+    "category": "Science",
+    "tone": "formal",
+    "template": "Paper ringkas: Metodologi penelitian yang menilai efektivitas {keyword}."
+  },
+  {
+    "id": 339,
+    "category": "Culture",
+    "tone": "casual",
+    "template": "Gaya hidup lokal: Bagaimana {keyword} menginspirasi kreativitas komunitas lokal."
+  },
+  {
+    "id": 340,
+    "category": "Culture",
+    "tone": "curious",
+    "template": "Tradisi baru: Ide kolaborasi {keyword} dengan budaya setempat."
+  },
+  {
+    "id": 341,
+    "category": "Entertainment",
+    "tone": "funny",
+    "template": "Seru-seruan: Ide konten {keyword} yang pasti dapat hiburan instan untuk pengikutmu."
+  },
+  {
+    "id": 342,
+    "category": "Entertainment",
+    "tone": "casual",
+    "template": "Rekomendasi tontonan: Film atau serial yang cocok dinikmati sambil explore {keyword}."
+  },
+  {
+    "id": 343,
+    "category": "Sports",
+    "tone": "casual",
+    "template": "Tips latihan: Gunakan {keyword} untuk bikin program latihanmu lebih terstruktur."
+  },
+  {
+    "id": 344,
+    "category": "Sports",
+    "tone": "funny",
+    "template": "Momen lucu olahraga: Ketika {keyword} bikin teknikmu jadi ngakak tapi efektif."
+  },
+  {
+    "id": 345,
+    "category": "Education",
+    "tone": "technical",
+    "template": "Modul lanjutan: Penerapan {keyword} dalam kurikulum berbasis proyek."
+  },
+  {
+    "id": 346,
+    "category": "AI",
+    "tone": "technical",
+    "template": "Implementasi teknis: Cara menggabungkan {keyword} pada pipeline produksi."
+  },
+  {
+    "id": 347,
+    "category": "Startups",
+    "tone": "urgent",
+    "template": "Pitch deck: Highlight penggunaan {keyword} untuk menyakinkan investor."
+  },
+  {
+    "id": 348,
+    "category": "Entrepreneurship",
+    "tone": "curious",
+    "template": "Pivot ide: Ketika {keyword} membuka peluang pivot bisnis yang tak terduga."
+  },
+  {
+    "id": 349,
+    "category": "Career",
+    "tone": "formal",
+    "template": "Pengembangan karier: Rencana belajar {keyword} dalam 12 minggu."
+  },
+  {
+    "id": 350,
+    "category": "Legal",
+    "tone": "empathetic",
+    "template": "Saran aman: Cara mengelola risiko hbervariasiukum saat menerapkan {keyword}."
+  },
+  {
+    "id": 351,
+    "category": "Food",
+    "tone": "casual",
+    "template": "Resep simpel: Kombinasi bahan ala {keyword} yang bisa kamu coba di rumah."
+  },
+  {
+    "id": 352,
+    "category": "Food",
+    "tone": "formal",
+    "template": "Panduan rasa: Teknik memasak profesional menggunakan prinsip {keyword}."
+  },
+  {
+    "id": 353,
+    "category": "B2B",
+    "tone": "formal",
+    "template": "Strategi B2B: Gunakan {keyword} untuk memperkuat nilai tawar dalam penawaran Anda."
+  },
+  {
+    "id": 354,
+    "category": "B2B",
+    "tone": "casual",
+    "template": "Tips cepat: Cara presentasi {keyword} supaya calon klien langsung paham manfaatnya."
+  },
+  {
+    "id": 355,
+    "category": "E-commerce",
+    "tone": "curious",
+    "template": "Cara meningkatkan konversi: Optimalisasi halaman produk dengan {keyword}."
+  },
+  {
+    "id": 356,
+    "category": "E-commerce",
+    "tone": "funny",
+    "template": "Cara promo kocak: Ide jualan unik pakai tema {keyword} yang bikin orang beli."
+  },
+  {
+    "id": 357,
+    "category": "Retail",
+    "tone": "formal",
+    "template": "Strategi toko: Menata display offline dengan inspirasi dari {keyword}."
+  },
+  {
+    "id": 358,
+    "category": "Retail",
+    "tone": "casual",
+    "template": "Promo cepat: Taktik jualan singkat pakai {keyword} untuk volume instan."
+  },
+  {
+    "id": 359,
+    "category": "Customer Support",
+    "tone": "empathetic",
+    "template": "Balasan hangat: Cara menanggapi keluhan menggunakan pendekatan {keyword}."
+  },
+  {
+    "id": 360,
+    "category": "Customer Support",
+    "tone": "casual",
+    "template": "Script dukungan: Kalimat sederhana untuk menjelaskan {keyword} ke pelanggan."
+  },
+  {
+    "id": 361,
+    "category": "HR",
+    "tone": "formal",
+    "template": "Kebijakan karyawan: Menambahkan {keyword} ke kebijakan internal perusahaan."
+  },
+  {
+    "id": 362,
+    "category": "HR",
+    "tone": "empathetic",
+    "template": "Dukungan tim: Ide program kesejahteraan karyawan berbasis {keyword}."
+  },
+  {
+    "id": 363,
+    "category": "Hiring",
+    "tone": "casual",
+    "template": "Iklan lowongan: Judul kreatif untuk posisi yang membutuhkan {keyword}."
+  },
+  {
+    "id": 364,
+    "category": "Hiring",
+    "tone": "formal",
+    "template": "Kriteria rekrutmen: Keterampilan terkait {keyword} yang ideal untuk kandidat."
+  },
+  {
+    "id": 365,
+    "category": "Onboarding",
+    "tone": "educational",
+    "template": "Panduan onboarding: Langkah awal memperkenalkan {keyword} ke tim baru."
+  },
+  {
+    "id": 366,
+    "category": "Onboarding",
+    "tone": "casual",
+    "template": "Selamat datang: Template pesan pengenalan {keyword} untuk anggota baru."
+  },
+  {
+    "id": 367,
+    "category": "Training",
+    "tone": "educational",
+    "template": "Modul pelatihan: Rencana 1 hari untuk mengajarkan {keyword} kepada peserta."
+  },
+  {
+    "id": 368,
+    "category": "Training",
+    "tone": "funny",
+    "template": "Icebreaker lucu untuk sesi {keyword} supaya suasana belajar lebih cair."
+  },
+  {
+    "id": 369,
+    "category": "DevOps",
+    "tone": "technical",
+    "template": "Skrip deployment: Cara automatisasi deployment dengan parameter {keyword}."
+  },
+  {
+    "id": 370,
+    "category": "DevOps",
+    "tone": "curious",
+    "template": "Monitoring cepat: Metode cek performa saat {keyword} di-deploy di prod."
+  },
+  {
+    "id": 371,
+    "category": "Security",
+    "tone": "formal",
+    "template": "Keamanan data: Langkah mitigasi risiko terkait penggunaan {keyword}."
+  },
+  {
+    "id": 372,
+    "category": "Security",
+    "tone": "urgent",
+    "template": "Peringatan penting: Langkah cepat bila ada celah keamanan pada {keyword}."
+  },
+  {
+    "id": 373,
+    "category": "Open Source",
+    "tone": "casual",
+    "template": "Kontribusi mudah: Cara ikut bantu proyek open-source yang berhubungan dengan {keyword}."
+  },
+  {
+    "id": 374,
+    "category": "Open Source",
+    "tone": "formal",
+    "template": "Panduan berkontribusi: Standar kontribusi untuk fitur yang melibatkan {keyword}."
+  },
+  {
+    "id": 375,
+    "category": "Bug Report",
+    "tone": "formal",
+    "template": "Laporan bug: Langkah menyusun laporan saat {keyword} tidak berfungsi seperti yang diharapkan."
+  },
+  {
+    "id": 376,
+    "category": "PR",
+    "tone": "casual",
+    "template": "Judul PR: Ringkasan perubahan terkait {keyword} yang jelas dan singkat."
+  },
+  {
+    "id": 377,
+    "category": "FAQ",
+    "tone": "educational",
+    "template": "Pertanyaan umum: 'Apakah {keyword} aman untuk pemula?' Jawaban singkat dan jelas."
+  },
+  {
+    "id": 378,
+    "category": "Guidelines",
+    "tone": "formal",
+    "template": "Panduan praktik: Standar operasional terkait penggunaan {keyword} dalam tim."
+  },
+  {
+    "id": 379,
+    "category": "Podcast",
+    "tone": "casual",
+    "template": "Episod terbaru: Topik diskusi tentang inovasi {keyword} yang wajib didengar."
+  },
+  {
+    "id": 380,
+    "category": "Newsletter",
+    "tone": "curious",
+    "template": "Berita mingguan: Sorotan terkait {keyword} dan sumber bacaan rekomendasi."
+  },
+  {
+    "id": 381,
+    "category": "Mini-series",
+    "tone": "inspirational",
+    "template": "Serial pendek: 3 episode tentang transformasi berkat {keyword}."
+  },
+  {
+    "id": 382,
+    "category": "Quote",
+    "tone": "inspirational",
+    "template": "Kutipan hari ini: 'Satu langkah kecil menuju {keyword} bisa buka ide besar.'"
+  },
+  {
+    "id": 383,
+    "category": "Slogan",
+    "tone": "funny",
+    "template": "Slogan singkat: 'Bukan cuma ide — {keyword} buat hidupmu lebih asyik.'"
+  },
+  {
+    "id": 384,
+    "category": "Press",
+    "tone": "formal",
+    "template": "Siaran pers: Pengumuman hasil studi terkait {keyword} kepada publik."
+  },
+  {
+    "id": 385,
+    "category": "Whitepaper",
+    "tone": "formal",
+    "template": "Executive summary: Temuan utama whitepaper tentang implementasi {keyword}."
+  },
+  {
+    "id": 386,
+    "category": "Opinion",
+    "tone": "casual",
+    "template": "Opini singkat: Mengapa {keyword} relevan untuk strategi kreatif tahun ini."
+  },
+  {
+    "id": 387,
+    "category": "Trend",
+    "tone": "curious",
+    "template": "Prediksi tren: Arah perkembangan {keyword} dalam beberapa tahun ke depan."
+  },
+  {
+    "id": 388,
+    "category": "Tooling",
+    "tone": "educational",
+    "template": "Alat bantu: Daftar tool yang mempermudah implementasi {keyword}."
+  },
+  {
+    "id": 389,
+    "category": "Integrations",
+    "tone": "formal",
+    "template": "Integrasi sistem: Cara menghubungkan {keyword} dengan layanan pihak ketiga."
+  },
+  {
+    "id": 390,
+    "category": "API",
+    "tone": "technical",
+    "template": "Endpoint singkat: Contoh panggilan API untuk memanfaatkan resources {keyword}."
+  },
+  {
+    "id": 391,
+    "category": "CLI",
+    "tone": "casual",
+    "template": "Perintah handy: Perintah singkat CLI untuk berinteraksi dengan {keyword}."
+  },
+  {
+    "id": 392,
+    "category": "Dataset",
+    "tone": "formal",
+    "template": "Sumber data: Rekomendasi dataset terbuka untuk training {keyword}."
+  },
+  {
+    "id": 393,
+    "category": "Localization",
+    "tone": "casual",
+    "template": "Tips terjemahan: Cara menyesuaikan {keyword} untuk pasar lokal."
+  },
+  {
+    "id": 394,
+    "category": "Accessibility",
+    "tone": "formal",
+    "template": "Check accessibility: Panduan agar implementasi {keyword} tetap inklusif untuk semua pengguna."
+  },
+  {
+    "id": 395,
+    "category": "Automation",
+    "tone": "curious",
+    "template": "Otomatisasi rutin: Proses harian yang bisa di-automasi dengan {keyword}."
+  },
+  {
+    "id": 396,
+    "category": "Blockchain",
+    "tone": "curious",
+    "template": "Integrasi blockchain: Cara {keyword} bekerja di lingkungan terdesentralisasi."
+  },
+  {
+    "id": 397,
+    "category": "Crypto",
+    "tone": "casual",
+    "template": "Trend koin: Ide kreatif memadukan {keyword} dengan kampanye crypto."
+  },
+  {
+    "id": 398,
+    "category": "Fintech",
+    "tone": "formal",
+    "template": "Inovasi fintech: Model implementasi {keyword} untuk layanan keuangan modern."
+  },
+  {
+    "id": 399,
+    "category": "IoT",
+    "tone": "technical",
+    "template": "Integrasi IoT: Cara menyambungkan sensor ke sistem yang memanfaatkan {keyword}."
+  },
+  {
+    "id": 400,
+    "category": "Cloud",
+    "tone": "education",
+    "template": "Migrasi ke cloud: Langkah-langkah aman memindahkan layanan {keyword} ke cloud."
+  },
+  {
+    "id": 401,
+    "category": "AR/VR",
+    "tone": "curious",
+    "template": "Bayangkan dunia dimana {keyword} hadir dalam pengalaman AR/VR — ini ide yang bisa kamu coba."
+  },
+  {
+    "id": 402,
+    "category": "Fashion",
+    "tone": "casual",
+    "template": "Padukan gaya harianmu dengan tema {keyword} untuk tampil beda setiap hari."
+  },
+  {
+    "id": 403,
+    "category": "Beauty",
+    "tone": "inspirational",
+    "template": "Rahasia kecantikan: Cara sederhana pakai {keyword} agar kulitmu tetap bercahaya."
+  },
+  {
+    "id": 404,
+    "category": "Pets",
+    "tone": "funny",
+    "template": "Kisah hewan peliharaan: Reaksi kocak saat {keyword} masuk ke gaya hidup mereka."
+  },
+  {
+    "id": 405,
+    "category": "Real Estate",
+    "tone": "formal",
+    "template": "Tips properti: Cara mempresentasikan rumah menggunakan elemen {keyword} agar cepat laku."
+  },
+  {
+    "id": 406,
+    "category": "EdTech",
+    "tone": "educational",
+    "template": "Innovasi pengajaran: Integrasi {keyword} untuk membuat pembelajaran lebih menarik."
+  },
+  {
+    "id": 407,
+    "category": "Wellness",
+    "tone": "empathetic",
+    "template": "Ritual keseharian: Masukkan {keyword} untuk bantu jaga kesehatan mental sehari-hari."
+  },
+  {
+    "id": 408,
+    "category": "Gardening",
+    "tone": "casual",
+    "template": "Taman kecil: Ide menanam dengan konsep {keyword} yang cocok di balkon sempit."
+  },
+  {
+    "id": 409,
+    "category": "DIY",
+    "tone": "funny",
+    "template": "Proyek DIY cepat: Bikin dekorasi rumahan pakai inspirasi {keyword} tanpa pusing."
+  },
+  {
+    "id": 410,
+    "category": "Mental Health",
+    "tone": "empathetic",
+    "template": "Cara lembut untuk coping: Gunakan prinsip {keyword} saat butuh jeda emosional."
+  },
+  {
+    "id": 411,
+    "category": "Photography",
+    "tone": "curious",
+    "template": "Eksperimen visual: Teknik memotret tema {keyword} yang bikin feed jadi sinematik."
+  },
+  {
+    "id": 412,
+    "category": "Beauty",
+    "tone": "formal",
+    "template": "Panduan perawatan: Langkah profesional merancang rutinitas kecantikan berbasis {keyword}."
+  },
+  {
+    "id": 413,
+    "category": "Pets",
+    "tone": "empathetic",
+    "template": "Perawatan hewan: Tips lembut merawat hewan peliharaan dengan prinsip {keyword}."
+  },
+  {
+    "id": 414,
+    "category": "Fitness",
+    "tone": "inspirational",
+    "template": "Rutinitas ringkas: Latihan 15 menit yang memanfaatkan konsep {keyword} untuk hasil maksimal."
+  },
+  {
+    "id": 415,
+    "category": "Finance",
+    "tone": "curious",
+    "template": "Rencana sederhana: Cara mengatur anggaran kecil sambil memanfaatkan {keyword} untuk tabungan."
+  },
+  {
+    "id": 416,
+    "category": "Fintech",
+    "tone": "curious",
+    "template": "Inovasi pembayaran: Ide fitur {keyword} yang bisa buat transaksi lebih mudah bagi pengguna."
+  },
+  {
+    "id": 417,
+    "category": "Open Source",
+    "tone": "inspirational",
+    "template": "Bergabunglah: Cara kontribusi kecil pada proyek {keyword} yang berdampak besar untuk komunitas."
+  },
+  {
+    "id": 418,
+    "category": "Accessibility",
+    "tone": "formal",
+    "template": "Standar inklusif: Checklist agar implementasi {keyword} dapat diakses semua pengguna."
+  },
+  {
+    "id": 419,
+    "category": "Automation",
+    "tone": "technical",
+    "template": "Otomasi pintar: Alur kerja yang memanfaatkan {keyword} untuk kurangi pekerjaan repetitif."
+  },
+  {
+    "id": 420,
+    "category": "Blockchain",
+    "tone": "formal",
+    "template": "Use case terbuka: Potensi penerapan {keyword} pada kontrak pintar dan sistem terdesentralisasi."
+  },
+  {
+    "id": 421,
+    "category": "Crypto",
+    "tone": "curious",
+    "template": "Strategi koleksi: Ide kreatif menggabungkan {keyword} untuk kampanye NFT dan community rewards."
+  },
+  {
+    "id": 422,
+    "category": "SaaS",
+    "tone": "casual",
+    "template": "Cara sederhana: Fitur kecil berdasar {keyword} yang bikin pengguna betah pakai produkmu."
+  },
+  {
+    "id": 423,
+    "category": "Startup",
+    "tone": "urgent",
+    "template": "Pitch time: Sorot penggunaan {keyword} untuk tunjukkan traction ke investor sekarang juga."
+  },
+  {
+    "id": 424,
+    "category": "Career",
+    "tone": "formal",
+    "template": "CV upgrade: Bagaimana menulis pengalaman {keyword} supaya dilirik recruiter."
+  },
+  {
+    "id": 425,
+    "category": "Legal",
+    "tone": "formal",
+    "template": "Kepatuhan: Langkah hukum dasar sebelum meluncurkan produk berbasis {keyword}."
+  },
+  {
+    "id": 426,
+    "category": "Parenting",
+    "tone": "empathetic",
+    "template": "Kegiatan anak: Ide edukatif pakai {keyword} untuk minggu ini bersama si kecil."
+  },
+  {
+    "id": 427,
+    "category": "Recipes",
+    "tone": "casual",
+    "template": "Cemilan mudah: Resep 3 bahan dengan sentuhan konsep {keyword} yang enak dan praktis."
+  },
+  {
+    "id": 428,
+    "category": "Travel",
+    "tone": "funny",
+    "template": "Trip lucu: Hal tak terduga yang akan terjadi saat petualangan bertema {keyword}."
+  },
+  {
+    "id": 429,
+    "category": "Photography",
+    "tone": "inspirational",
+    "template": "Proyek foto: Langkah membuat seri foto bertema {keyword} untuk pameran lokal."
+  },
+  {
+    "id": 430,
+    "category": "Gaming",
+    "tone": "curious",
+    "template": "Challenge seru: Turnamen mini dengan aturan unik yang memanfaatkan {keyword}."
+  },
+  {
+    "id": 431,
+    "category": "Art",
+    "tone": "empathetic",
+    "template": "Proyek kolaborasi: Ajakan seniman lokal bereksperimen dengan {keyword}."
+  },
+  {
+    "id": 432,
+    "category": "Music",
+    "tone": "casual",
+    "template": "Mix pendek: Ide lagu yang terinspirasi dari {keyword} untuk jam kreatifmu."
+  },
+  {
+    "id": 433,
+    "category": "Advertising",
+    "tone": "casual",
+    "template": "Hook sederhana: Judul iklan singkat yang menonjolkan daya tarik {keyword}."
+  },
+  {
+    "id": 434,
+    "category": "Analytics",
+    "tone": "technical",
+    "template": "Metric penting: Cara ukur dampak {keyword} dengan dashboard sederhana."
+  },
+  {
+    "id": 435,
+    "category": "Community",
+    "tone": "inspirational",
+    "template": "Gerakan lokal: Kampanye komunitas bertema {keyword} untuk bantu sesama."
+  },
+  {
+    "id": 436,
+    "category": "Nonprofit",
+    "tone": "empathetic",
+    "template": "Kisah bantu: Bagaimana donation drive bertema {keyword} mengubah hari keluarga yang membutuhkan."
+  },
+  {
+    "id": 437,
+    "category": "Government",
+    "tone": "formal",
+    "template": "Rencana aksi: Implementasi {keyword} untuk layanan publik yang lebih efisien dan transparan."
+  },
+  {
+    "id": 438,
+    "category": "Policy",
+    "tone": "curious",
+    "template": "Diskusi kebijakan: Argumen pro dan kontra tentang regulasi {keyword} di publik."
+  },
+  {
+    "id": 439,
+    "category": "Science",
+    "tone": "educational",
+    "template": "Eksperimen sederhana: Langkah mudah mengeksplorasi aspek ilmiah {keyword} di lab rumahan."
+  },
+  {
+    "id": 440,
+    "category": "Culture",
+    "tone": "casual",
+    "template": "Festival lokal: Ide acara yang merayakan kreativitas dengan {keyword} sebagai tema."
+  },
+  {
+    "id": 441,
+    "category": "Entertainment",
+    "tone": "curious",
+    "template": "Format baru: Sketsa hiburan berdasar situasi komedi {keyword} untuk konten mingguan."
+  },
+  {
+    "id": 442,
+    "category": "Sports",
+    "tone": "inspirational",
+    "template": "Cerita atlet: Bagaimana {keyword} membantu proses pembinaan menuju prestasi."
+  },
+  {
+    "id": 443,
+    "category": "Education",
+    "tone": "casual",
+    "template": "Microlearning: Modul 5 menit berbasis {keyword} yang bisa dibaca di sela kerja."
+  },
+  {
+    "id": 444,
+    "category": "AI Ethics",
+    "tone": "formal",
+    "template": "Pertimbangan etis: Panduan ringkas terkait penggunaan {keyword} yang bertanggung jawab."
+  },
+  {
+    "id": 445,
+    "category": "AR/VR",
+    "tone": "inspirational",
+    "template": "Pengalaman imersif: Ide naskah singkat buat demo {keyword} yang memikat audiens."
+  },
+  {
+    "id": 446,
+    "category": "Fashion",
+    "tone": "funny",
+    "template": "OOTD lucu: Outfit of the day dengan unsur {keyword} yang bakal bikin orang senyum."
+  },
+  {
+    "id": 447,
+    "category": "Beauty",
+    "tone": "casual",
+    "template": "Hack kecantikan: Trik praktis pakai {keyword} yang nggak merepotkan rutinitasmu."
+  },
+  {
+    "id": 448,
+    "category": "Pets",
+    "tone": "curious",
+    "template": "Eksperimen aman: Aktivitas seru bersama hewan peliharaan yang terinspirasi {keyword}."
+  },
+  {
+    "id": 449,
+    "category": "Real Estate",
+    "tone": "casual",
+    "template": "Home staging: Sentuhan {keyword} untuk bikin rumahmu tampil menonjol di listing."
+  },
+  {
+    "id": 450,
+    "category": "EdTech",
+    "tone": "inspirational",
+    "template": "Kurikulum baru: Modul interaktif berbasis {keyword} untuk pembelajaran abad 21."
+  },
+  {
+    "id": 451,
+    "category": "Wellness",
+    "tone": "casual",
+    "template": "Self-care mudah: Langkah harian kecil memakai {keyword} saat butuh recharge."
+  },
+  {
+    "id": 452,
+    "category": "Gardening",
+    "tone": "educational",
+    "template": "Panduan tanam: Perawatan mingguan untuk tanaman bertema {keyword}."
+  },
+  {
+    "id": 453,
+    "category": "DIY",
+    "tone": "curious",
+    "template": "Proyek akhir pekan: Cara buat furnitur kecil terinspirasi {keyword}."
+  },
+  {
+    "id": 454,
+    "category": "Mental Health",
+    "tone": "empathetic",
+    "template": "Check-in singkat: Pertanyaan harian untuk refleksi diri dengan bantuan {keyword}."
+  },
+  {
+    "id": 455,
+    "category": "Photography",
+    "tone": "funny",
+    "template": "Bloopers di balik foto: Momen lucu saat mencoba konsep {keyword} di lapangan."
+  },
+  {
+    "id": 456,
+    "category": "Fitness",
+    "tone": "casual",
+    "template": "Challenge 7 hari: Rutinitas singkat pakai {keyword} untuk boost kebugaranmu."
+  },
+  {
+    "id": 457,
+    "category": "Finance",
+    "tone": "formal",
+    "template": "Case study: Dampak implementasi {keyword} terhadap aliran kas usaha kecil."
+  },
+  {
+    "id": 458,
+    "category": "Fintech",
+    "tone": "urgent",
+    "template": "Perubahan penting: Kebijakan baru tentang penggunaan {keyword} di platform pembayaran—baca sekarang."
+  },
+  {
+    "id": 459,
+    "category": "SaaS",
+    "tone": "formal",
+    "template": "Whitepaper singkat: Manfaat integrasi {keyword} untuk skala bisnis SaaS."
+  },
+  {
+    "id": 460,
+    "category": "Startup",
+    "tone": "casual",
+    "template": "MVP cepat: Fitur minimal yang menonjolkan {keyword} untuk uji pasar awal."
+  },
+  {
+    "id": 461,
+    "category": "Career",
+    "tone": "curious",
+    "template": "Skill up: Kursus praktis yang bisa kamu mulai untuk kuasai {keyword}."
+  },
+  {
+    "id": 462,
+    "category": "Legal",
+    "tone": "curious",
+    "template": "Pertanyaan hukum: Hal-hal penting yang sering ditanyakan seputar {keyword}."
+  },
+  {
+    "id": 463,
+    "category": "Parenting",
+    "tone": "funny",
+    "template": "Game keluarga: Aktivitas seru pakai {keyword} yang bikin anak dan orangtua ketawa bareng."
+  },
+  {
+    "id": 464,
+    "category": "Recipes",
+    "tone": "inspirational",
+    "template": "Makanan penuh cerita: Resep keluarga yang mendapat sentuhan {keyword} untuk generasi selanjutnya."
+  },
+  {
+    "id": 465,
+    "category": "Travel",
+    "tone": "formal",
+    "template": "Panduan perjalanan: Rencana perjalanan curated berdasarkan tema {keyword}."
+  },
+  {
+    "id": 466,
+    "category": "Photography",
+    "tone": "technical",
+    "template": "Eksposur dan komposisi: Teknik teknis untuk memaksimalkan foto bertema {keyword}."
+  },
+  {
+    "id": 467,
+    "category": "Gaming",
+    "tone": "funny",
+    "template": "Easter egg: Ide-ide rahasia bertema {keyword} untuk level bonus dalam game indie."
+  },
+  {
+    "id": 468,
+    "category": "Art",
+    "tone": "casual",
+    "template": "Workshop seni: Aktivitas hands-on untuk eksplorasi bahan dan {keyword}."
+  },
+  {
+    "id": 469,
+    "category": "Music",
+    "tone": "inspirational",
+    "template": "Kolaborasi musisi: Cara menggabungkan tema {keyword} dalam komposisi lintas genre."
+  },
+  {
+    "id": 470,
+    "category": "Advertising",
+    "tone": "technical",
+    "template": "A/B test: Variasi iklan berbasis {keyword} yang perlu diuji untuk optimisasi CTR."
+  },
+  {
+    "id": 471,
+    "category": "Analytics",
+    "tone": "casual",
+    "template": "Insight ringan: Temuan menarik dari analitik sederhana soal {keyword}."
+  },
+  {
+    "id": 472,
+    "category": "Community",
+    "tone": "curious",
+    "template": "Event mini: Ide pertemuan komunitas bertema {keyword} untuk memperluas jaringan."
+  },
+  {
+    "id": 473,
+    "category": "Nonprofit",
+    "tone": "formal",
+    "template": "Proposal pendanaan: Menjelaskan dampak {keyword} dalam program sosial untuk sponsor."
+  },
+  {
+    "id": 474,
+    "category": "Government",
+    "tone": "urgent",
+    "template": "Update kebijakan: Perubahan penting mengenai penggunaan {keyword} dalam layanan publik — pelajari sekarang."
+  },
+  {
+    "id": 475,
+    "category": "Policy",
+    "tone": "inspirational",
+    "template": "Visi publik: Bagaimana kebijakan yang bijak seputar {keyword} bisa tingkatkan kesejahteraan masyarakat."
+  },
+  {
+    "id": 476,
+    "category": "Science",
+    "tone": "formal",
+    "template": "Riset terapan: Metode studi yang menguji efisiensi {keyword} pada skala nyata."
+  },
+  {
+    "id": 477,
+    "category": "Culture",
+    "tone": "inspirational",
+    "template": "Kreasi budaya: Program seni yang mengangkat {keyword} sebagai medium ekspresi baru."
+  },
+  {
+    "id": 478,
+    "category": "Entertainment",
+    "tone": "casual",
+    "template": "Segmen baru: Ide rubrik mingguan bertema {keyword} untuk show hiburan lokal."
+  },
+  {
+    "id": 479,
+    "category": "Sports",
+    "tone": "casual",
+    "template": "Drill singkat: Latihan 10 menit yang memfokuskan gerakan terinspirasi oleh {keyword}."
+  },
+  {
+    "id": 480,
+    "category": "Education",
+    "tone": "inspirational",
+    "template": "Mentoring: Program pairing mentor-murid dengan modul berbasis {keyword}."
+  },
+  {
+    "id": 481,
+    "category": "AI Ethics",
+    "tone": "curious",
+    "template": "Diskusi panel: Topik etika seputar penggunaan {keyword} dalam aplikasi sehari-hari."
+  },
+  {
+    "id": 482,
+    "category": "AR/VR",
+    "tone": "technical",
+    "template": "Prototyping cepat: Cara membuat demo interaktif yang memanfaatkan {keyword} dalam 2 jam."
+  },
+  {
+    "id": 483,
+    "category": "Fashion",
+    "tone": "formal",
+    "template": "Lookbook: Menyusun koleksi bertema {keyword} untuk presentasi musim ini."
+  },
+  {
+    "id": 484,
+    "category": "Beauty",
+    "tone": "empathetic",
+    "template": "Pesan hangat: Cara mendukung perawatan diri orang lain lewat ide {keyword}."
+  },
+  {
+    "id": 485,
+    "category": "Pets",
+    "tone": "technical",
+    "template": "Panduan aman: Langkah pencegahan saat memperkenalkan mainan {keyword} ke hewan peliharaan."
+  },
+  {
+    "id": 486,
+    "category": "Real Estate",
+    "tone": "inspirational",
+    "template": "Cerita renovasi: Transformasi rumah lama dengan sentuhan {keyword} yang menginspirasi."
+  },
+  {
+    "id": 487,
+    "category": "EdTech",
+    "tone": "casual",
+    "template": "Tool favorit guru: Rekomendasi aplikasi yang memanfaatkan {keyword} untuk kelas yang lebih hidup."
+  },
+  {
+    "id": 488,
+    "category": "Wellness",
+    "tone": "formal",
+    "template": "Policy wellness: Kebijakan internal yang mendukung kesejahteraan menggunakan {keyword}."
+  },
+  {
+    "id": 489,
+    "category": "Gardening",
+    "tone": "empathetic",
+    "template": "Ritual pagi: Cara merawat tanaman sambil menikmati rutinitas {keyword} yang menenangkan."
+  },
+  {
+    "id": 490,
+    "category": "DIY",
+    "tone": "funny",
+    "template": "Hack cepat: Ide perbaikan rumah yang terinspirasi {keyword} untuk hari Minggu santai."
+  },
+  {
+    "id": 491,
+    "category": "Mental Health",
+    "tone": "inspirational",
+    "template": "Jurnal harian: Prompt singkat untuk refleksi yang menggunakan tema {keyword}."
+  },
+  {
+    "id": 492,
+    "category": "Photography",
+    "tone": "casual",
+    "template": "Foto challenge: Ambil foto bertema {keyword} dan tag komunitas untuk komen kreatif."
+  },
+  {
+    "id": 493,
+    "category": "Fitness",
+    "tone": "formal",
+    "template": "Program triathlon: Integrasikan {keyword} sebagai fokus latihan mingguan untuk atlit amatir."
+  },
+  {
+    "id": 494,
+    "category": "Finance",
+    "tone": "funny",
+    "template": "Kisah dompet: Tips jaga keuangan sambil masih bisa nikmati hal kecil bermotif {keyword}."
+  },
+  {
+    "id": 495,
+    "category": "Fintech",
+    "tone": "technical",
+    "template": "SDK snippet: Cara integrasi {keyword} ke dalam aplikasi pembayaran dengan contoh kode singkat."
+  },
+  {
+    "id": 496,
+    "category": "SaaS",
+    "tone": "inspirational",
+    "template": "Rencana produk: Roadmap fitur yang tercermin dari nilai {keyword} untuk 6 bulan ke depan."
+  },
+  {
+    "id": 497,
+    "category": "Startup",
+    "tone": "casual",
+    "template": "Demo day: Cara presentasi penggunaan {keyword} yang bikin juri terkesan."
+  },
+  {
+    "id": 498,
+    "category": "Career",
+    "tone": "empathetic",
+    "template": "Mentor letter: Contoh pesan suportif dari mentor tentang pentingnya menguasai {keyword}."
+  },
+  {
+    "id": 499,
+    "category": "Legal",
+    "tone": "urgent",
+    "template": "Perhatian penting: Checklist kepatuhan cepat jika bisnismu memakai {keyword} dalam layanan."
+  },
+  {
+    "id": 500,
+    "category": "Wellbeing",
+    "tone": "inspirational",
+    "template": "Rutinitas akhir hari: Cara menutup hari dengan praktik {keyword} agar tidur lebih nyenyak."
   }
 ]
